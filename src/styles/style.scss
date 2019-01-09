@@ -46,6 +46,10 @@ html, body {
                 border-color: transparent;
             }
 
+            &.edge.clicked {
+                background-color: black;
+            }
+
             &.vertex {
                 background-color: black;
                 border-radius: 5px;
@@ -62,6 +66,11 @@ html, body {
                     transition: background-color 100ms ease-in-out;
                     cursor: pointer;
                     background-color: red;
+                }
+
+                &.clicked:hover {
+                    cursor: auto;
+                    background-color: inherit;
                 }
             }
         }
