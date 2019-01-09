@@ -1,5 +1,9 @@
 @import "./utils.scss";
 
+$length: 45px;
+$height: 10px;
+
+
 html, body {
     height: 100%;
     padding: 0;
@@ -11,60 +15,55 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
-table {
-    >tbody {
-        >tr {
-            border: 1px solid grey;
+    .row {
+        &:nth-child(2n - 1) {
+            background-color: yellowgreen;
+            .cell {
+                height: $height;
+            }
+        }
+        &:nth-child(2n) {
+            .cell {
+                height: $length;
+            }
+        }
+
+        .cell {
+            border: 1px solid transparentize(grey, 0.5);
+            width: $length;
+            display: inline-block;
 
             &:nth-child(2n - 1) {
-                background-color: greenyellow;
+                width: $height;
+                background-color: yellowgreen;
+            }
+            &:nth-child(2n) {
+                width: $length;
             }
 
-            >td {
-                @extend .p-0;
+            &.box {
+                border-color: transparent;
+            }
 
-                &:nth-child(2n - 1) {
-                    background-color: greenyellow;
-                }
+            &.vertex {
+                background-color: black;
+                border-radius: 5px;
+                transform: scale(1.5);
+            }
 
-                >a {
-                    transition: background-color 300ms ease-in-out;
+            &>a.hoverable {
+                transition: background-color 300ms ease-in-out;
+                width: 100%;
+                height: 100%;
+                display: block;
 
-                    &:hover {
-                        transition: background-color 200ms ease-in-out;
-                        cursor: pointer;
-                        background-color: red;
-                    }
+                &:hover {
+                    transition: background-color 100ms ease-in-out;
+                    cursor: pointer;
+                    background-color: red;
                 }
             }
         }
     }
-}
-
-$length: 35px;
-$height: 10px;
-
-
-.unselectable {
-    background-color: black !important;
-    border-radius: 5px;
-    transform: scale(2);
-}
-
-.col.selectable > a {
-    display: inline-block;
-    height: $length;
-    width: $height;
-}
-
-.row.selectable > a {
-    display: inline-block;
-    width: $length;
-    height: $height;
-}
-
-table {
-    text-align: center;
 }
