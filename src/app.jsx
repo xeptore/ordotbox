@@ -3,6 +3,8 @@ import './styles/style.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import { times } from 'lodash';
+
 const n = 3;
 const uids = {
     row: 0,
@@ -20,26 +22,26 @@ class App extends React.Component {
     }
     evencols() {
         const tds = [];
-        for (let i = 0; i < 2 * n + 1; i++) {
+        times(2 * n + 1, i => {
             let td = <td key={uids.col} className='unselectable'></td>;
             if (i % 2 === 1) {
                 td = <td key={uids.col} className='row selectable'><a></a></td>;
             }
             tds.push(td);
             uids.col++;
-        }
+        });
         return tds;
     }
     oddcols() {
         const tds = [];
-        for (let i = 0; i < 2 * n + 1; i++) {
+        times(2 * n + 1, i => {
             let td = <td key={uids.col} className='box'><a></a></td>;
             if (i % 2 === 0) {
                 td = <td key={uids.col} className='col selectable'><a></a></td>;
             }
             tds.push(td);
             uids.col++;
-        }
+        });
         return tds;
     }
     render() {
