@@ -1,0 +1,70 @@
+@import "./utils.scss";
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    >tbody {
+        >tr {
+            border: 1px solid grey;
+
+            &:nth-child(2n - 1) {
+                background-color: greenyellow;
+            }
+
+            >td {
+                @extend .p-0;
+
+                &:nth-child(2n - 1) {
+                    background-color: greenyellow;
+                }
+
+                >a {
+                    transition: background-color 300ms ease-in-out;
+
+                    &:hover {
+                        transition: background-color 200ms ease-in-out;
+                        cursor: pointer;
+                        background-color: red;
+                    }
+                }
+            }
+        }
+    }
+}
+
+$length: 35px;
+$height: 10px;
+
+
+.unselectable {
+    background-color: black !important;
+    border-radius: 5px;
+    transform: scale(2);
+}
+
+.col.selectable > a {
+    display: inline-block;
+    height: $length;
+    width: $height;
+}
+
+.row.selectable > a {
+    display: inline-block;
+    width: $length;
+    height: $height;
+}
+
+table {
+    text-align: center;
+}
