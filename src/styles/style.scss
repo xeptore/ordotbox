@@ -1,4 +1,5 @@
-@import "./utils.scss";
+@import "./colors";
+@import "./utils";
 
 $length: 45px;
 $height: 10px;
@@ -10,67 +11,82 @@ html, body {
     margin: 0;
 }
 
+body {
+    background-color: map-get($colors, document-background);
+}
+
 .container {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    .row {
-        &:nth-child(2n - 1) {
-            background-color: yellowgreen;
-            .cell {
-                height: $height;
-            }
-        }
-        &:nth-child(2n) {
-            .cell {
-                height: $length;
-            }
-        }
+    .wrapper {
+        transform: scale(1.3);
 
-        .cell {
-            border: 1px solid transparentize(grey, 0.5);
-            width: $length;
-            display: inline-block;
-
+        .row {
             &:nth-child(2n - 1) {
-                width: $height;
-                background-color: yellowgreen;
+                background-color: map-get(map-get($colors, edges), default);
+                .cell {
+                    height: $height;
+                }
             }
             &:nth-child(2n) {
+                .cell {
+                    height: $length;
+                }
+            }
+
+            .cell {
+                border: 1px solid map-get($colors, borders);
                 width: $length;
-            }
+                display: inline-block;
 
-            &.box {
-                border-color: transparent;
-            }
-
-            &.edge.clicked {
-                background-color: black;
-            }
-
-            &.vertex {
-                background-color: black;
-                border-radius: 5px;
-                transform: scale(1.5);
-            }
-
-            &>a.hoverable {
-                transition: background-color 300ms ease-in-out;
-                width: 100%;
-                height: 100%;
-                display: block;
-
-                &:hover {
-                    transition: background-color 100ms ease-in-out;
-                    cursor: pointer;
-                    background-color: red;
+                &:nth-child(2n - 1) {
+                    width: $height;
+                    background-color: map-get(map-get($colors, edges), default);
+                }
+                &:nth-child(2n) {
+                    width: $length;
                 }
 
-                &.clicked:hover {
-                    cursor: auto;
-                    background-color: inherit;
+                &.box {
+                    border-color: transparent;
+
+                    &.box-user-selected {
+                        background-color: map-get($colors, player);
+                    }
+                    &.box-cpu-selected {
+                        background-color: map-get($colors, cpu);
+                    }
+                }
+
+                &.edge.clicked {
+                    background-color: map-get(map-get($colors, edges), clicked);
+                }
+
+                &.vertex {
+                    background-color: map-get($colors, vertices-background);
+                    border-radius: 5px;
+                    transform: scale(1.5);
+                }
+
+                &>a.hoverable {
+                    transition: background-color 300ms ease-in-out;
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+
+                    &:hover {
+                        transition: background-color 100ms ease-in-out;
+                        cursor: pointer;
+                        background-color: map-get(map-get($colors, edges), hovered);
+                    }
+
+                    &.clicked:hover {
+                        cursor: auto;
+                        background-color: inherit;
+                    }
                 }
             }
         }
