@@ -129,6 +129,7 @@ module.exports = merge(common,
                 filename: path.join('index.html'),
                 chunks: ['main', 'vendors', 'runtime'],
                 meta: TemplateMeta,
+                title: 'Dots And Boxes',
                 minify: minificationConfig
             })
         ]
