@@ -1,0 +1,43 @@
+.scoreboard-container {
+    color: whitesmoke;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+
+    .score-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .winner {
+        animation: {
+            name: winner;
+            direction: normal;
+            duration: 1s;
+            iteration-count: infinite;
+            timing-function: linear;
+        }
+    }
+}
+
+@keyframes winner {
+    0% {
+        color: #009F9D;
+    }
+    25% {
+        color: #FFE98A;
+    }
+    50% {
+        color: #EBF0C2;
+    }
+    75% {
+        color: #F59AA3;
+    }
+    100% {
+        color: #009F9D;
+    }
+}
