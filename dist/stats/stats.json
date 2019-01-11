@@ -6,14 +6,14 @@
     "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
   ],
   "version": "4.28.4",
-  "hash": "76270eb3c75d492f7cdc660a6d4d0280",
-  "time": 5831,
-  "builtAt": 1547185984125,
+  "hash": "283ac48acbf785b6542cad8036ee9b20",
+  "time": 5275,
+  "builtAt": 1547186961759,
   "publicPath": "",
   "outputPath": "/home/xeptore/Projects/ordotbox/dist",
   "assetsByChunkName": {
     "main": [
-      "main.a9bc9a92579c431c626baf21736eed84.76270eb3c75d492f7cdc660a6d4d0280.af68291dc11a49b815c7dfe1560ecd37.css",
+      "main.3697008c378836fe1610ff5fb6a7f40d.283ac48acbf785b6542cad8036ee9b20.6b101a846509dcff573198ef6c2e187f.css",
       "main.js"
     ],
     "runtime": "runtime.js",
@@ -22,7 +22,7 @@
   "assets": [
     {
       "name": "main.js",
-      "size": 6697,
+      "size": 6846,
       "chunks": [
         0
       ],
@@ -65,7 +65,7 @@
       "assets": [
         "runtime.js",
         "vendors.js",
-        "main.a9bc9a92579c431c626baf21736eed84.76270eb3c75d492f7cdc660a6d4d0280.af68291dc11a49b815c7dfe1560ecd37.css",
+        "main.3697008c378836fe1610ff5fb6a7f40d.283ac48acbf785b6542cad8036ee9b20.6b101a846509dcff573198ef6c2e187f.css",
         "main.js"
       ],
       "children": {
@@ -84,7 +84,7 @@
       "assets": [
         "runtime.js",
         "vendors.js",
-        "main.a9bc9a92579c431c626baf21736eed84.76270eb3c75d492f7cdc660a6d4d0280.af68291dc11a49b815c7dfe1560ecd37.css",
+        "main.3697008c378836fe1610ff5fb6a7f40d.283ac48acbf785b6542cad8036ee9b20.6b101a846509dcff573198ef6c2e187f.css",
         "main.js"
       ],
       "children": {
@@ -99,15 +99,15 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 14544,
+      "size": 14855,
       "names": [
         "main"
       ],
       "files": [
-        "main.a9bc9a92579c431c626baf21736eed84.76270eb3c75d492f7cdc660a6d4d0280.af68291dc11a49b815c7dfe1560ecd37.css",
+        "main.3697008c378836fe1610ff5fb6a7f40d.283ac48acbf785b6542cad8036ee9b20.6b101a846509dcff573198ef6c2e187f.css",
         "main.js"
       ],
-      "hash": "af68291dc11a49b815c7dfe1560ecd37",
+      "hash": "6b101a846509dcff573198ef6c2e187f",
       "siblings": [
         1,
         2
@@ -125,7 +125,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/resolve-url-loader??ref--5-3!./node_modules/sass-loader/lib/loader.js??ref--5-4!./src/styles/style.scss",
           "index": 2,
           "index2": 0,
-          "size": 1482,
+          "size": 1518,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -174,7 +174,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/resolve-url-loader??ref--5-3!./node_modules/sass-loader/lib/loader.js??ref--5-4!./src/styles/scoreboard.scss",
           "index": 19,
           "index2": 16,
-          "size": 843,
+          "size": 859,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -276,7 +276,7 @@
           "name": "./src/app.jsx + 2 modules",
           "index": 0,
           "index2": 19,
-          "size": 12180,
+          "size": 12439,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -321,7 +321,7 @@
               "name": "./src/app.jsx",
               "index": 0,
               "index2": 19,
-              "size": 7716,
+              "size": 7975,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -355,7 +355,7 @@
                 "ModuleConcatenation bailout: Module is an entry point"
               ],
               "depth": 0,
-              "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nimport './styles/style.scss';\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { times, range, chunk, head, pull, sample } from 'lodash';\nimport Box from './box';\nimport ScoreBoard from './scoreboard';\nvar n = 3;\nvar MaxEdges = n * (n + 1) * 2;\nvar scores = {\n  cpu: 0,\n  player: 0\n};\nvar uids = {\n  row: 0,\n  box: 0,\n  cell: -1,\n  edges: 0\n};\nvar RemainingEdges = range(MaxEdges);\n\nvar App =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _this;\n\n    _classCallCheck(this, App);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(App).call(this));\n    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_assertThisInitialized(_this)));\n    _this.Boxes = [];\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      ReactDOM.render(React.createElement(ScoreBoard, {\n        player: scores.player,\n        cpu: scores.cpu,\n        total: n * n\n      }), document.getElementById('scoreboard'));\n      uids.box = 0;\n      var headsTop = chunk(range(MaxEdges - n), 2 * n + 1).map(head);\n      var boxes = [];\n      var idx = 0;\n      chunk(range(9), 3).forEach(function (row, i) {\n        row.forEach(function (box, j) {\n          var top = headsTop[i] + j;\n          var left = top + n;\n          var right = left + 1;\n          var bottom = right + n;\n          boxes.push(new Box(box, document.getElementById(\"b\".concat(idx++)), [top, right, bottom, left]));\n        });\n      });\n      this.Boxes = boxes;\n    }\n  }, {\n    key: \"handleClick\",\n    value: function handleClick(e) {\n      if (e.target.getAttribute('clicked')) {\n        return;\n      }\n\n      var edge = document.getElementById(e.target.parentNode.getAttribute('id'));\n      var prevPlayerScore = scores.player;\n      this.playerSelectedEdge(1, edge);\n\n      if (scores.player === prevPlayerScore) {\n        this.playcpu();\n      }\n    }\n  }, {\n    key: \"playcpu\",\n    value: function playcpu() {\n      var edge = this.selectRandomEdge();\n      this.playerSelectedEdge(0, edge);\n    }\n  }, {\n    key: \"selectRandomEdge\",\n    value: function selectRandomEdge() {\n      var edgeID = sample(RemainingEdges);\n      return document.getElementById(edgeID);\n    }\n  }, {\n    key: \"playerSelectedEdge\",\n    value: function playerSelectedEdge(player, edge) {\n      edge.classList.add('clicked');\n      edge.children[0].classList.add('clicked');\n      edge.children[0].setAttribute('clicked', true);\n      pull(RemainingEdges, parseInt(edge.id));\n      var selectedEdgeBoxes = this.Boxes.filter(function (box) {\n        var index = box.Edges.indexOf(parseInt(edge.id));\n\n        if (index !== -1) {\n          box.SelectedEdges.push(index);\n          return true;\n        }\n\n        return false;\n      });\n      var prevCpuScore = player === 0 ? scores.cpu : -1;\n      selectedEdgeBoxes.forEach(function (box) {\n        if (--box.RemainingEdges === 0) {\n          if (player === 1) {\n            box.Element.classList.add('box-user-selected');\n            scores.player++;\n          } else {\n            box.Element.classList.add('box-cpu-selected');\n            scores.cpu++;\n          }\n\n          ReactDOM.render(React.createElement(ScoreBoard, {\n            player: scores.player,\n            cpu: scores.cpu,\n            total: n * n\n          }), document.getElementById('scoreboard'));\n        }\n      });\n      var currentCpuScore = player === 0 ? scores.cpu : -1;\n\n      if (currentCpuScore > prevCpuScore && player === 0 && RemainingEdges.length !== 0) {\n        this.playcpu();\n        return;\n      }\n\n      if (scores.player + scores.cpu === n * n) {\n        console.log('finished!');\n        console.log('scores:');\n        console.log('player:', scores.player);\n        console.log('cpu:', scores.cpu);\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this2 = this;\n\n      return React.createElement(\"div\", {\n        className: \"wrapper\"\n      }, React.createElement(\"div\", {\n        id: \"scoreboard\"\n      }), React.createElement(\"div\", {\n        className: \"game-wrapper\"\n      }, times(2 * n + 1, function (i) {\n        return React.createElement(\"div\", {\n          className: \"row\",\n          key: uids.row++\n        }, times(2 * n + 1, function (j) {\n          if (i % 2 === 0 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell vertex\",\n              key: uids.cell++\n            });\n          } else if (i % 2 === 1 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell edge vedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else if (i % 2 === 0 && j % 2 === 1) {\n            return React.createElement(\"div\", {\n              className: \"cell edge hedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else {\n            return React.createElement(\"div\", {\n              className: \"cell box\",\n              key: uids.cell++,\n              id: \"b\".concat(uids.box++)\n            });\n          }\n        }));\n      })));\n    }\n  }]);\n\n  return App;\n}(React.Component);\n\nReactDOM.render(React.createElement(App, null), document.getElementById('app'));"
+              "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nimport './styles/style.scss';\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { times, range, chunk, head, pull, sample } from 'lodash';\nimport Box from './box';\nimport ScoreBoard from './scoreboard';\nvar n = 3;\nvar MaxEdges = n * (n + 1) * 2;\nvar scores = {\n  cpu: 0,\n  player: 0\n};\nvar uids = {\n  row: 0,\n  box: 0,\n  cell: -1,\n  edges: 0\n};\nvar RemainingEdges = range(MaxEdges);\n\nvar App =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _this;\n\n    _classCallCheck(this, App);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(App).call(this));\n    var size = prompt('Enter size of the game (3 - 9):');\n    var parsedIntSize = parseInt(size);\n\n    if (parsedIntSize == size && parsedIntSize < 10 && parsedIntSize > 2) {\n      n = parsedIntSize;\n    } else {\n      alert('Invalid size. set to 3');\n    }\n\n    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_assertThisInitialized(_this)));\n    _this.Boxes = [];\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      ReactDOM.render(React.createElement(ScoreBoard, {\n        player: scores.player,\n        cpu: scores.cpu,\n        total: n * n\n      }), document.getElementById('scoreboard'));\n      uids.box = 0;\n      var headsTop = chunk(range(MaxEdges - n), 2 * n + 1).map(head);\n      var boxes = [];\n      var idx = 0;\n      chunk(range(9), 3).forEach(function (row, i) {\n        row.forEach(function (box, j) {\n          var top = headsTop[i] + j;\n          var left = top + n;\n          var right = left + 1;\n          var bottom = right + n;\n          boxes.push(new Box(box, document.getElementById(\"b\".concat(idx++)), [top, right, bottom, left]));\n        });\n      });\n      this.Boxes = boxes;\n    }\n  }, {\n    key: \"handleClick\",\n    value: function handleClick(e) {\n      if (e.target.getAttribute('clicked')) {\n        return;\n      }\n\n      var edge = document.getElementById(e.target.parentNode.getAttribute('id'));\n      var prevPlayerScore = scores.player;\n      this.playerSelectedEdge(1, edge);\n\n      if (scores.player === prevPlayerScore) {\n        this.playcpu();\n      }\n    }\n  }, {\n    key: \"playcpu\",\n    value: function playcpu() {\n      var edge = this.selectRandomEdge();\n      this.playerSelectedEdge(0, edge);\n    }\n  }, {\n    key: \"selectRandomEdge\",\n    value: function selectRandomEdge() {\n      var edgeID = sample(RemainingEdges);\n      return document.getElementById(edgeID);\n    }\n  }, {\n    key: \"playerSelectedEdge\",\n    value: function playerSelectedEdge(player, edge) {\n      edge.classList.add('clicked');\n      edge.children[0].classList.add('clicked');\n      edge.children[0].setAttribute('clicked', true);\n      pull(RemainingEdges, parseInt(edge.id));\n      var selectedEdgeBoxes = this.Boxes.filter(function (box) {\n        var index = box.Edges.indexOf(parseInt(edge.id));\n\n        if (index !== -1) {\n          box.SelectedEdges.push(index);\n          return true;\n        }\n\n        return false;\n      });\n      var prevCpuScore = player === 0 ? scores.cpu : -1;\n      selectedEdgeBoxes.forEach(function (box) {\n        if (--box.RemainingEdges === 0) {\n          if (player === 1) {\n            box.Element.classList.add('box-user-selected');\n            scores.player++;\n          } else {\n            box.Element.classList.add('box-cpu-selected');\n            scores.cpu++;\n          }\n\n          ReactDOM.render(React.createElement(ScoreBoard, {\n            player: scores.player,\n            cpu: scores.cpu,\n            total: n * n\n          }), document.getElementById('scoreboard'));\n        }\n      });\n      var currentCpuScore = player === 0 ? scores.cpu : -1;\n\n      if (currentCpuScore > prevCpuScore && player === 0 && RemainingEdges.length !== 0) {\n        this.playcpu();\n        return;\n      }\n\n      if (scores.player + scores.cpu === n * n) {\n        console.log('finished!');\n        console.log('scores:');\n        console.log('player:', scores.player);\n        console.log('cpu:', scores.cpu);\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this2 = this;\n\n      return React.createElement(\"div\", {\n        className: \"wrapper\"\n      }, React.createElement(\"div\", {\n        id: \"scoreboard\"\n      }), React.createElement(\"div\", {\n        className: \"game-wrapper\"\n      }, times(2 * n + 1, function (i) {\n        return React.createElement(\"div\", {\n          className: \"row\",\n          key: uids.row++\n        }, times(2 * n + 1, function (j) {\n          if (i % 2 === 0 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell vertex\",\n              key: uids.cell++\n            });\n          } else if (i % 2 === 1 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell edge vedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else if (i % 2 === 0 && j % 2 === 1) {\n            return React.createElement(\"div\", {\n              className: \"cell edge hedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else {\n            return React.createElement(\"div\", {\n              className: \"cell box\",\n              key: uids.cell++,\n              id: \"b\".concat(uids.box++)\n            });\n          }\n        }));\n      })));\n    }\n  }]);\n\n  return App;\n}(React.Component);\n\nReactDOM.render(React.createElement(App, null), document.getElementById('app'));"
             },
             {
               "id": null,
@@ -402,7 +402,7 @@
                   "moduleName": "./src/app.jsx",
                   "type": "harmony import specifier",
                   "userRequest": "./box",
-                  "loc": "73:25-28"
+                  "loc": "82:25-28"
                 }
               ],
               "usedExports": [
@@ -461,7 +461,7 @@
                   "moduleName": "./src/app.jsx",
                   "type": "harmony import specifier",
                   "userRequest": "./scoreboard",
-                  "loc": "58:42-52"
+                  "loc": "67:42-52"
                 },
                 {
                   "moduleId": null,
@@ -470,7 +470,7 @@
                   "moduleName": "./src/app.jsx",
                   "type": "harmony import specifier",
                   "userRequest": "./scoreboard",
-                  "loc": "133:46-56"
+                  "loc": "142:46-56"
                 }
               ],
               "usedExports": [
@@ -486,7 +486,7 @@
             }
           ],
           "filteredModules": 0,
-          "parsedSrc": "function(e,t,n){\"use strict\";n.r(t);n(\"/OlT\");var r=n(\"q1tI\"),c=n.n(r),o=n(\"i8i4\"),a=n.n(o),u=n(\"LvDl\");var p=function e(t,n,r){!function(e,t){if(!(e instanceof t))throw new TypeError(\"Cannot call a class as a function\")}(this,e),this.ID=t,this.Edges=Object(u.times)(4,function(e){return r[e]}),this.Element=n,this.SelectedEdges=[],this.RemainingEdges=4},l=n(\"17x9\"),i=n.n(l);n(\"t4ym\");function s(e){return(s=\"function\"==typeof Symbol&&\"symbol\"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&\"function\"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?\"symbol\":typeof e})(e)}function f(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,\"value\"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function d(e,t){return!t||\"object\"!==s(t)&&\"function\"!=typeof t?function(e){if(void 0!==e)return e;throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\")}(e):t}function y(e){return(y=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function m(e,t){return(m=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}var b=function(e){function t(e){return function(e,t){if(!(e instanceof t))throw new TypeError(\"Cannot call a class as a function\")}(this,t),d(this,y(t).call(this,e))}var n,r,o;return function(e,t){if(\"function\"!=typeof t&&null!==t)throw new TypeError(\"Super expression must either be null or a function\");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&m(e,t)}(t,c.a.Component),n=t,(r=[{key:\"winner\",value:function(){if(this.props.total===this.props.cpu+this.props.player){if(this.props.cpu>this.props.player)return\"cpu\";if(this.props.player>this.props.cpu)return\"player\"}return!1}},{key:\"render\",value:function(){return c.a.createElement(\"div\",{className:\"scoreboard-container\"},c.a.createElement(\"div\",{className:\"scores-container\"},c.a.createElement(\"div\",{className:\"score-container player-score \".concat(\"player\"===this.winner()?\"winner\":\"\")},c.a.createElement(\"p\",{className:\"score-title d-inline-block\"},\"Player:\"),c.a.createElement(\"p\",{className:\"score player d-inline-block\"},this.props.player)),c.a.createElement(\"div\",{className:\"score-container cpu-score \".concat(\"cpu\"===this.winner()?\"winner\":\"\")},c.a.createElement(\"p\",{className:\"score-title d-inline-block\"},\"CPU:\"),c.a.createElement(\"p\",{className:\"score cpu d-inline-block\"},this.props.cpu))))}}])&&f(n.prototype,r),o&&f(n,o),t}();function h(e){return(h=\"function\"==typeof Symbol&&\"symbol\"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&\"function\"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?\"symbol\":typeof e})(e)}function g(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,\"value\"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function E(e){return(E=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function v(e,t){return(v=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}function k(e){if(void 0===e)throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");return e}b.propTypes={player:i.a.number,cpu:i.a.number,total:i.a.number};var w={cpu:0,player:0},O={row:0,box:0,cell:-1,edges:0},j=Object(u.range)(24),N=function(e){function r(){var e,t,n;return function(e,t){if(!(e instanceof t))throw new TypeError(\"Cannot call a class as a function\")}(this,r),t=this,(e=!(n=E(r).call(this))||\"object\"!==h(n)&&\"function\"!=typeof n?k(t):n).handleClick=e.handleClick.bind(k(k(e))),e.Boxes=[],e}var t,n,o;return function(e,t){if(\"function\"!=typeof t&&null!==t)throw new TypeError(\"Super expression must either be null or a function\");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&v(e,t)}(r,c.a.Component),t=r,(n=[{key:\"componentDidMount\",value:function(){a.a.render(c.a.createElement(b,{player:w.player,cpu:w.cpu,total:9}),document.getElementById(\"scoreboard\")),O.box=0;var l=Object(u.chunk)(Object(u.range)(21),7).map(u.head),i=[],s=0;Object(u.chunk)(Object(u.range)(9),3).forEach(function(e,a){e.forEach(function(e,t){var n=l[a]+t,r=n+3,o=r+1,c=o+3;i.push(new p(e,document.getElementById(\"b\".concat(s++)),[n,o,c,r]))})}),this.Boxes=i}},{key:\"handleClick\",value:function(e){if(!e.target.getAttribute(\"clicked\")){var t=document.getElementById(e.target.parentNode.getAttribute(\"id\")),n=w.player;this.playerSelectedEdge(1,t),w.player===n&&this.playcpu()}}},{key:\"playcpu\",value:function(){var e=this.selectRandomEdge();this.playerSelectedEdge(0,e)}},{key:\"selectRandomEdge\",value:function(){var e=Object(u.sample)(j);return document.getElementById(e)}},{key:\"playerSelectedEdge\",value:function(t,n){n.classList.add(\"clicked\"),n.children[0].classList.add(\"clicked\"),n.children[0].setAttribute(\"clicked\",!0),Object(u.pull)(j,parseInt(n.id));var e=this.Boxes.filter(function(e){var t=e.Edges.indexOf(parseInt(n.id));return-1!==t&&(e.SelectedEdges.push(t),!0)}),r=0===t?w.cpu:-1;e.forEach(function(e){0==--e.RemainingEdges&&(1===t?(e.Element.classList.add(\"box-user-selected\"),w.player++):(e.Element.classList.add(\"box-cpu-selected\"),w.cpu++),a.a.render(c.a.createElement(b,{player:w.player,cpu:w.cpu,total:9}),document.getElementById(\"scoreboard\")))}),r<(0===t?w.cpu:-1)&&0===t&&0!==j.length?this.playcpu():w.player+w.cpu===9&&(console.log(\"finished!\"),console.log(\"scores:\"),console.log(\"player:\",w.player),console.log(\"cpu:\",w.cpu))}},{key:\"render\",value:function(){var n=this;return c.a.createElement(\"div\",{className:\"wrapper\"},c.a.createElement(\"div\",{id:\"scoreboard\"}),c.a.createElement(\"div\",{className:\"game-wrapper\"},Object(u.times)(7,function(t){return c.a.createElement(\"div\",{className:\"row\",key:O.row++},Object(u.times)(7,function(e){return t%2==0&&e%2==0?c.a.createElement(\"div\",{className:\"cell vertex\",key:O.cell++}):t%2==1&&e%2==0?c.a.createElement(\"div\",{className:\"cell edge vedge\",key:O.cell++,id:O.edges++},c.a.createElement(\"a\",{className:\"hoverable\",onClick:n.handleClick})):t%2==0&&e%2==1?c.a.createElement(\"div\",{className:\"cell edge hedge\",key:O.cell++,id:O.edges++},c.a.createElement(\"a\",{className:\"hoverable\",onClick:n.handleClick})):c.a.createElement(\"div\",{className:\"cell box\",key:O.cell++,id:\"b\".concat(O.box++)})}))})))}}])&&g(t.prototype,n),o&&g(t,o),r}();a.a.render(c.a.createElement(N,null),document.getElementById(\"app\"))}"
+          "parsedSrc": "function(e,t,n){\"use strict\";n.r(t);n(\"/OlT\");var r=n(\"q1tI\"),a=n.n(r),o=n(\"i8i4\"),u=n.n(o),p=n(\"LvDl\");var f=function e(t,n,r){!function(e,t){if(!(e instanceof t))throw new TypeError(\"Cannot call a class as a function\")}(this,e),this.ID=t,this.Edges=Object(p.times)(4,function(e){return r[e]}),this.Element=n,this.SelectedEdges=[],this.RemainingEdges=4},c=n(\"17x9\"),l=n.n(c);n(\"t4ym\");function i(e){return(i=\"function\"==typeof Symbol&&\"symbol\"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&\"function\"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?\"symbol\":typeof e})(e)}function s(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,\"value\"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function d(e,t){return!t||\"object\"!==i(t)&&\"function\"!=typeof t?function(e){if(void 0!==e)return e;throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\")}(e):t}function y(e){return(y=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function m(e,t){return(m=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}var b=function(e){function t(e){return function(e,t){if(!(e instanceof t))throw new TypeError(\"Cannot call a class as a function\")}(this,t),d(this,y(t).call(this,e))}var n,r,o;return function(e,t){if(\"function\"!=typeof t&&null!==t)throw new TypeError(\"Super expression must either be null or a function\");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&m(e,t)}(t,a.a.Component),n=t,(r=[{key:\"winner\",value:function(){if(this.props.total===this.props.cpu+this.props.player){if(this.props.cpu>this.props.player)return\"cpu\";if(this.props.player>this.props.cpu)return\"player\"}return!1}},{key:\"render\",value:function(){return a.a.createElement(\"div\",{className:\"scoreboard-container\"},a.a.createElement(\"div\",{className:\"scores-container\"},a.a.createElement(\"div\",{className:\"score-container player-score \".concat(\"player\"===this.winner()?\"winner\":\"\")},a.a.createElement(\"p\",{className:\"score-title d-inline-block\"},\"Player:\"),a.a.createElement(\"p\",{className:\"score player d-inline-block\"},this.props.player)),a.a.createElement(\"div\",{className:\"score-container cpu-score \".concat(\"cpu\"===this.winner()?\"winner\":\"\")},a.a.createElement(\"p\",{className:\"score-title d-inline-block\"},\"CPU:\"),a.a.createElement(\"p\",{className:\"score cpu d-inline-block\"},this.props.cpu))))}}])&&s(n.prototype,r),o&&s(n,o),t}();function h(e){return(h=\"function\"==typeof Symbol&&\"symbol\"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&\"function\"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?\"symbol\":typeof e})(e)}function g(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,\"value\"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function v(e){return(v=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function E(e,t){return(E=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}function k(e){if(void 0===e)throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");return e}b.propTypes={player:l.a.number,cpu:l.a.number,total:l.a.number};var w=3,O=w*(w+1)*2,j={cpu:0,player:0},N={row:0,box:0,cell:-1,edges:0},S=Object(p.range)(O),_=function(e){function c(){var e,t,n;!function(e,t){if(!(e instanceof t))throw new TypeError(\"Cannot call a class as a function\")}(this,c),t=this,e=!(n=v(c).call(this))||\"object\"!==h(n)&&\"function\"!=typeof n?k(t):n;var r=prompt(\"Enter size of the game (3 - 9):\"),o=parseInt(r);return o==r&&o<10&&2<o?w=o:alert(\"Invalid size. set to 3\"),e.handleClick=e.handleClick.bind(k(k(e))),e.Boxes=[],e}var t,n,r;return function(e,t){if(\"function\"!=typeof t&&null!==t)throw new TypeError(\"Super expression must either be null or a function\");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&E(e,t)}(c,a.a.Component),t=c,(n=[{key:\"componentDidMount\",value:function(){u.a.render(a.a.createElement(b,{player:j.player,cpu:j.cpu,total:w*w}),document.getElementById(\"scoreboard\")),N.box=0;var l=Object(p.chunk)(Object(p.range)(O-w),2*w+1).map(p.head),i=[],s=0;Object(p.chunk)(Object(p.range)(9),3).forEach(function(e,a){e.forEach(function(e,t){var n=l[a]+t,r=n+w,o=r+1,c=o+w;i.push(new f(e,document.getElementById(\"b\".concat(s++)),[n,o,c,r]))})}),this.Boxes=i}},{key:\"handleClick\",value:function(e){if(!e.target.getAttribute(\"clicked\")){var t=document.getElementById(e.target.parentNode.getAttribute(\"id\")),n=j.player;this.playerSelectedEdge(1,t),j.player===n&&this.playcpu()}}},{key:\"playcpu\",value:function(){var e=this.selectRandomEdge();this.playerSelectedEdge(0,e)}},{key:\"selectRandomEdge\",value:function(){var e=Object(p.sample)(S);return document.getElementById(e)}},{key:\"playerSelectedEdge\",value:function(t,n){n.classList.add(\"clicked\"),n.children[0].classList.add(\"clicked\"),n.children[0].setAttribute(\"clicked\",!0),Object(p.pull)(S,parseInt(n.id));var e=this.Boxes.filter(function(e){var t=e.Edges.indexOf(parseInt(n.id));return-1!==t&&(e.SelectedEdges.push(t),!0)}),r=0===t?j.cpu:-1;e.forEach(function(e){0==--e.RemainingEdges&&(1===t?(e.Element.classList.add(\"box-user-selected\"),j.player++):(e.Element.classList.add(\"box-cpu-selected\"),j.cpu++),u.a.render(a.a.createElement(b,{player:j.player,cpu:j.cpu,total:w*w}),document.getElementById(\"scoreboard\")))}),r<(0===t?j.cpu:-1)&&0===t&&0!==S.length?this.playcpu():j.player+j.cpu===w*w&&(console.log(\"finished!\"),console.log(\"scores:\"),console.log(\"player:\",j.player),console.log(\"cpu:\",j.cpu))}},{key:\"render\",value:function(){var n=this;return a.a.createElement(\"div\",{className:\"wrapper\"},a.a.createElement(\"div\",{id:\"scoreboard\"}),a.a.createElement(\"div\",{className:\"game-wrapper\"},Object(p.times)(2*w+1,function(t){return a.a.createElement(\"div\",{className:\"row\",key:N.row++},Object(p.times)(2*w+1,function(e){return t%2==0&&e%2==0?a.a.createElement(\"div\",{className:\"cell vertex\",key:N.cell++}):t%2==1&&e%2==0?a.a.createElement(\"div\",{className:\"cell edge vedge\",key:N.cell++,id:N.edges++},a.a.createElement(\"a\",{className:\"hoverable\",onClick:n.handleClick})):t%2==0&&e%2==1?a.a.createElement(\"div\",{className:\"cell edge hedge\",key:N.cell++,id:N.edges++},a.a.createElement(\"a\",{className:\"hoverable\",onClick:n.handleClick})):a.a.createElement(\"div\",{className:\"cell box\",key:N.cell++,id:\"b\".concat(N.box++)})}))})))}}])&&g(t.prototype,n),r&&g(t,r),c}();u.a.render(a.a.createElement(_,null),document.getElementById(\"app\"))}"
         },
         {
           "id": "t4ym",
@@ -898,7 +898,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "64:21-26"
+              "loc": "73:21-26"
             },
             {
               "moduleId": "k7yg",
@@ -907,7 +907,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "64:27-32"
+              "loc": "73:27-32"
             },
             {
               "moduleId": "k7yg",
@@ -916,7 +916,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "64:63-67"
+              "loc": "73:63-67"
             },
             {
               "moduleId": "k7yg",
@@ -925,7 +925,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "67:6-11"
+              "loc": "76:6-11"
             },
             {
               "moduleId": "k7yg",
@@ -934,7 +934,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "67:12-17"
+              "loc": "76:12-17"
             },
             {
               "moduleId": "k7yg",
@@ -943,7 +943,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "102:19-25"
+              "loc": "111:19-25"
             },
             {
               "moduleId": "k7yg",
@@ -952,7 +952,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "111:6-10"
+              "loc": "120:6-10"
             },
             {
               "moduleId": "k7yg",
@@ -961,7 +961,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "165:9-14"
+              "loc": "174:9-14"
             },
             {
               "moduleId": "k7yg",
@@ -970,7 +970,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "169:11-16"
+              "loc": "178:11-16"
             }
           ],
           "usedExports": [
@@ -1280,7 +1280,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-dom",
-              "loc": "58:6-14"
+              "loc": "67:6-14"
             },
             {
               "moduleId": "k7yg",
@@ -1289,7 +1289,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-dom",
-              "loc": "133:10-18"
+              "loc": "142:10-18"
             },
             {
               "moduleId": "k7yg",
@@ -1298,7 +1298,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-dom",
-              "loc": "208:0-8"
+              "loc": "217:0-8"
             }
           ],
           "usedExports": [
@@ -1412,15 +1412,6 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "58:22-27"
-            },
-            {
-              "moduleId": "k7yg",
-              "moduleIdentifier": "/home/xeptore/Projects/ordotbox/node_modules/babel-loader/lib/index.js!/home/xeptore/Projects/ordotbox/src/app.jsx 0931f5881f7c58d45078b952b42f8b14",
-              "module": "./src/app.jsx + 2 modules",
-              "moduleName": "./src/app.jsx + 2 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
               "loc": "60:30-35"
             },
             {
@@ -1448,6 +1439,15 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
+              "loc": "67:22-27"
+            },
+            {
+              "moduleId": "k7yg",
+              "moduleIdentifier": "/home/xeptore/Projects/ordotbox/node_modules/babel-loader/lib/index.js!/home/xeptore/Projects/ordotbox/src/app.jsx 0931f5881f7c58d45078b952b42f8b14",
+              "module": "./src/app.jsx + 2 modules",
+              "moduleName": "./src/app.jsx + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
               "loc": "71:2-7"
             },
             {
@@ -1457,7 +1457,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "133:26-31"
+              "loc": "142:26-31"
             },
             {
               "moduleId": "k7yg",
@@ -1466,7 +1466,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "159:13-18"
+              "loc": "168:13-18"
             },
             {
               "moduleId": "k7yg",
@@ -1475,7 +1475,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "161:9-14"
+              "loc": "170:9-14"
             },
             {
               "moduleId": "k7yg",
@@ -1484,7 +1484,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "163:10-15"
+              "loc": "172:10-15"
             },
             {
               "moduleId": "k7yg",
@@ -1493,7 +1493,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "166:15-20"
+              "loc": "175:15-20"
             },
             {
               "moduleId": "k7yg",
@@ -1502,25 +1502,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "171:19-24"
-            },
-            {
-              "moduleId": "k7yg",
-              "moduleIdentifier": "/home/xeptore/Projects/ordotbox/node_modules/babel-loader/lib/index.js!/home/xeptore/Projects/ordotbox/src/app.jsx 0931f5881f7c58d45078b952b42f8b14",
-              "module": "./src/app.jsx + 2 modules",
-              "moduleName": "./src/app.jsx + 2 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
-              "loc": "176:19-24"
-            },
-            {
-              "moduleId": "k7yg",
-              "moduleIdentifier": "/home/xeptore/Projects/ordotbox/node_modules/babel-loader/lib/index.js!/home/xeptore/Projects/ordotbox/src/app.jsx 0931f5881f7c58d45078b952b42f8b14",
-              "module": "./src/app.jsx + 2 modules",
-              "moduleName": "./src/app.jsx + 2 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
-              "loc": "180:15-20"
+              "loc": "180:19-24"
             },
             {
               "moduleId": "k7yg",
@@ -1556,7 +1538,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "206:2-7"
+              "loc": "198:15-20"
             },
             {
               "moduleId": "k7yg",
@@ -1565,7 +1547,25 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "208:16-21"
+              "loc": "203:19-24"
+            },
+            {
+              "moduleId": "k7yg",
+              "moduleIdentifier": "/home/xeptore/Projects/ordotbox/node_modules/babel-loader/lib/index.js!/home/xeptore/Projects/ordotbox/src/app.jsx 0931f5881f7c58d45078b952b42f8b14",
+              "module": "./src/app.jsx + 2 modules",
+              "moduleName": "./src/app.jsx + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "215:2-7"
+            },
+            {
+              "moduleId": "k7yg",
+              "moduleIdentifier": "/home/xeptore/Projects/ordotbox/node_modules/babel-loader/lib/index.js!/home/xeptore/Projects/ordotbox/src/app.jsx 0931f5881f7c58d45078b952b42f8b14",
+              "module": "./src/app.jsx + 2 modules",
+              "moduleName": "./src/app.jsx + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "217:16-21"
             },
             {
               "moduleId": "yl30",
@@ -1779,7 +1779,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/resolve-url-loader??ref--5-3!./node_modules/sass-loader/lib/loader.js??ref--5-4!./src/styles/style.scss",
       "index": 2,
       "index2": 0,
-      "size": 1443,
+      "size": 1479,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -1827,7 +1827,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/resolve-url-loader??ref--5-3!./node_modules/sass-loader/lib/loader.js??ref--5-4!./src/styles/scoreboard.scss",
       "index": 19,
       "index2": 16,
-      "size": 843,
+      "size": 859,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -2198,7 +2198,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "64:21-26"
+          "loc": "73:21-26"
         },
         {
           "moduleId": "k7yg",
@@ -2207,7 +2207,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "64:27-32"
+          "loc": "73:27-32"
         },
         {
           "moduleId": "k7yg",
@@ -2216,7 +2216,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "64:63-67"
+          "loc": "73:63-67"
         },
         {
           "moduleId": "k7yg",
@@ -2225,7 +2225,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "67:6-11"
+          "loc": "76:6-11"
         },
         {
           "moduleId": "k7yg",
@@ -2234,7 +2234,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "67:12-17"
+          "loc": "76:12-17"
         },
         {
           "moduleId": "k7yg",
@@ -2243,7 +2243,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "102:19-25"
+          "loc": "111:19-25"
         },
         {
           "moduleId": "k7yg",
@@ -2252,7 +2252,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "111:6-10"
+          "loc": "120:6-10"
         },
         {
           "moduleId": "k7yg",
@@ -2261,7 +2261,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "165:9-14"
+          "loc": "174:9-14"
         },
         {
           "moduleId": "k7yg",
@@ -2270,7 +2270,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "169:11-16"
+          "loc": "178:11-16"
         }
       ],
       "usedExports": [
@@ -2575,7 +2575,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-dom",
-          "loc": "58:6-14"
+          "loc": "67:6-14"
         },
         {
           "moduleId": "k7yg",
@@ -2584,7 +2584,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-dom",
-          "loc": "133:10-18"
+          "loc": "142:10-18"
         },
         {
           "moduleId": "k7yg",
@@ -2593,7 +2593,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-dom",
-          "loc": "208:0-8"
+          "loc": "217:0-8"
         }
       ],
       "usedExports": [
@@ -2612,7 +2612,7 @@
       "name": "./src/app.jsx + 2 modules",
       "index": 0,
       "index2": 19,
-      "size": 12180,
+      "size": 12439,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -2657,7 +2657,7 @@
           "name": "./src/app.jsx",
           "index": 0,
           "index2": 19,
-          "size": 7716,
+          "size": 7975,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2691,7 +2691,7 @@
             "ModuleConcatenation bailout: Module is an entry point"
           ],
           "depth": 0,
-          "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nimport './styles/style.scss';\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { times, range, chunk, head, pull, sample } from 'lodash';\nimport Box from './box';\nimport ScoreBoard from './scoreboard';\nvar n = 3;\nvar MaxEdges = n * (n + 1) * 2;\nvar scores = {\n  cpu: 0,\n  player: 0\n};\nvar uids = {\n  row: 0,\n  box: 0,\n  cell: -1,\n  edges: 0\n};\nvar RemainingEdges = range(MaxEdges);\n\nvar App =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _this;\n\n    _classCallCheck(this, App);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(App).call(this));\n    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_assertThisInitialized(_this)));\n    _this.Boxes = [];\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      ReactDOM.render(React.createElement(ScoreBoard, {\n        player: scores.player,\n        cpu: scores.cpu,\n        total: n * n\n      }), document.getElementById('scoreboard'));\n      uids.box = 0;\n      var headsTop = chunk(range(MaxEdges - n), 2 * n + 1).map(head);\n      var boxes = [];\n      var idx = 0;\n      chunk(range(9), 3).forEach(function (row, i) {\n        row.forEach(function (box, j) {\n          var top = headsTop[i] + j;\n          var left = top + n;\n          var right = left + 1;\n          var bottom = right + n;\n          boxes.push(new Box(box, document.getElementById(\"b\".concat(idx++)), [top, right, bottom, left]));\n        });\n      });\n      this.Boxes = boxes;\n    }\n  }, {\n    key: \"handleClick\",\n    value: function handleClick(e) {\n      if (e.target.getAttribute('clicked')) {\n        return;\n      }\n\n      var edge = document.getElementById(e.target.parentNode.getAttribute('id'));\n      var prevPlayerScore = scores.player;\n      this.playerSelectedEdge(1, edge);\n\n      if (scores.player === prevPlayerScore) {\n        this.playcpu();\n      }\n    }\n  }, {\n    key: \"playcpu\",\n    value: function playcpu() {\n      var edge = this.selectRandomEdge();\n      this.playerSelectedEdge(0, edge);\n    }\n  }, {\n    key: \"selectRandomEdge\",\n    value: function selectRandomEdge() {\n      var edgeID = sample(RemainingEdges);\n      return document.getElementById(edgeID);\n    }\n  }, {\n    key: \"playerSelectedEdge\",\n    value: function playerSelectedEdge(player, edge) {\n      edge.classList.add('clicked');\n      edge.children[0].classList.add('clicked');\n      edge.children[0].setAttribute('clicked', true);\n      pull(RemainingEdges, parseInt(edge.id));\n      var selectedEdgeBoxes = this.Boxes.filter(function (box) {\n        var index = box.Edges.indexOf(parseInt(edge.id));\n\n        if (index !== -1) {\n          box.SelectedEdges.push(index);\n          return true;\n        }\n\n        return false;\n      });\n      var prevCpuScore = player === 0 ? scores.cpu : -1;\n      selectedEdgeBoxes.forEach(function (box) {\n        if (--box.RemainingEdges === 0) {\n          if (player === 1) {\n            box.Element.classList.add('box-user-selected');\n            scores.player++;\n          } else {\n            box.Element.classList.add('box-cpu-selected');\n            scores.cpu++;\n          }\n\n          ReactDOM.render(React.createElement(ScoreBoard, {\n            player: scores.player,\n            cpu: scores.cpu,\n            total: n * n\n          }), document.getElementById('scoreboard'));\n        }\n      });\n      var currentCpuScore = player === 0 ? scores.cpu : -1;\n\n      if (currentCpuScore > prevCpuScore && player === 0 && RemainingEdges.length !== 0) {\n        this.playcpu();\n        return;\n      }\n\n      if (scores.player + scores.cpu === n * n) {\n        console.log('finished!');\n        console.log('scores:');\n        console.log('player:', scores.player);\n        console.log('cpu:', scores.cpu);\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this2 = this;\n\n      return React.createElement(\"div\", {\n        className: \"wrapper\"\n      }, React.createElement(\"div\", {\n        id: \"scoreboard\"\n      }), React.createElement(\"div\", {\n        className: \"game-wrapper\"\n      }, times(2 * n + 1, function (i) {\n        return React.createElement(\"div\", {\n          className: \"row\",\n          key: uids.row++\n        }, times(2 * n + 1, function (j) {\n          if (i % 2 === 0 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell vertex\",\n              key: uids.cell++\n            });\n          } else if (i % 2 === 1 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell edge vedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else if (i % 2 === 0 && j % 2 === 1) {\n            return React.createElement(\"div\", {\n              className: \"cell edge hedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else {\n            return React.createElement(\"div\", {\n              className: \"cell box\",\n              key: uids.cell++,\n              id: \"b\".concat(uids.box++)\n            });\n          }\n        }));\n      })));\n    }\n  }]);\n\n  return App;\n}(React.Component);\n\nReactDOM.render(React.createElement(App, null), document.getElementById('app'));"
+          "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nimport './styles/style.scss';\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { times, range, chunk, head, pull, sample } from 'lodash';\nimport Box from './box';\nimport ScoreBoard from './scoreboard';\nvar n = 3;\nvar MaxEdges = n * (n + 1) * 2;\nvar scores = {\n  cpu: 0,\n  player: 0\n};\nvar uids = {\n  row: 0,\n  box: 0,\n  cell: -1,\n  edges: 0\n};\nvar RemainingEdges = range(MaxEdges);\n\nvar App =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _this;\n\n    _classCallCheck(this, App);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(App).call(this));\n    var size = prompt('Enter size of the game (3 - 9):');\n    var parsedIntSize = parseInt(size);\n\n    if (parsedIntSize == size && parsedIntSize < 10 && parsedIntSize > 2) {\n      n = parsedIntSize;\n    } else {\n      alert('Invalid size. set to 3');\n    }\n\n    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_assertThisInitialized(_this)));\n    _this.Boxes = [];\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      ReactDOM.render(React.createElement(ScoreBoard, {\n        player: scores.player,\n        cpu: scores.cpu,\n        total: n * n\n      }), document.getElementById('scoreboard'));\n      uids.box = 0;\n      var headsTop = chunk(range(MaxEdges - n), 2 * n + 1).map(head);\n      var boxes = [];\n      var idx = 0;\n      chunk(range(9), 3).forEach(function (row, i) {\n        row.forEach(function (box, j) {\n          var top = headsTop[i] + j;\n          var left = top + n;\n          var right = left + 1;\n          var bottom = right + n;\n          boxes.push(new Box(box, document.getElementById(\"b\".concat(idx++)), [top, right, bottom, left]));\n        });\n      });\n      this.Boxes = boxes;\n    }\n  }, {\n    key: \"handleClick\",\n    value: function handleClick(e) {\n      if (e.target.getAttribute('clicked')) {\n        return;\n      }\n\n      var edge = document.getElementById(e.target.parentNode.getAttribute('id'));\n      var prevPlayerScore = scores.player;\n      this.playerSelectedEdge(1, edge);\n\n      if (scores.player === prevPlayerScore) {\n        this.playcpu();\n      }\n    }\n  }, {\n    key: \"playcpu\",\n    value: function playcpu() {\n      var edge = this.selectRandomEdge();\n      this.playerSelectedEdge(0, edge);\n    }\n  }, {\n    key: \"selectRandomEdge\",\n    value: function selectRandomEdge() {\n      var edgeID = sample(RemainingEdges);\n      return document.getElementById(edgeID);\n    }\n  }, {\n    key: \"playerSelectedEdge\",\n    value: function playerSelectedEdge(player, edge) {\n      edge.classList.add('clicked');\n      edge.children[0].classList.add('clicked');\n      edge.children[0].setAttribute('clicked', true);\n      pull(RemainingEdges, parseInt(edge.id));\n      var selectedEdgeBoxes = this.Boxes.filter(function (box) {\n        var index = box.Edges.indexOf(parseInt(edge.id));\n\n        if (index !== -1) {\n          box.SelectedEdges.push(index);\n          return true;\n        }\n\n        return false;\n      });\n      var prevCpuScore = player === 0 ? scores.cpu : -1;\n      selectedEdgeBoxes.forEach(function (box) {\n        if (--box.RemainingEdges === 0) {\n          if (player === 1) {\n            box.Element.classList.add('box-user-selected');\n            scores.player++;\n          } else {\n            box.Element.classList.add('box-cpu-selected');\n            scores.cpu++;\n          }\n\n          ReactDOM.render(React.createElement(ScoreBoard, {\n            player: scores.player,\n            cpu: scores.cpu,\n            total: n * n\n          }), document.getElementById('scoreboard'));\n        }\n      });\n      var currentCpuScore = player === 0 ? scores.cpu : -1;\n\n      if (currentCpuScore > prevCpuScore && player === 0 && RemainingEdges.length !== 0) {\n        this.playcpu();\n        return;\n      }\n\n      if (scores.player + scores.cpu === n * n) {\n        console.log('finished!');\n        console.log('scores:');\n        console.log('player:', scores.player);\n        console.log('cpu:', scores.cpu);\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this2 = this;\n\n      return React.createElement(\"div\", {\n        className: \"wrapper\"\n      }, React.createElement(\"div\", {\n        id: \"scoreboard\"\n      }), React.createElement(\"div\", {\n        className: \"game-wrapper\"\n      }, times(2 * n + 1, function (i) {\n        return React.createElement(\"div\", {\n          className: \"row\",\n          key: uids.row++\n        }, times(2 * n + 1, function (j) {\n          if (i % 2 === 0 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell vertex\",\n              key: uids.cell++\n            });\n          } else if (i % 2 === 1 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell edge vedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else if (i % 2 === 0 && j % 2 === 1) {\n            return React.createElement(\"div\", {\n              className: \"cell edge hedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else {\n            return React.createElement(\"div\", {\n              className: \"cell box\",\n              key: uids.cell++,\n              id: \"b\".concat(uids.box++)\n            });\n          }\n        }));\n      })));\n    }\n  }]);\n\n  return App;\n}(React.Component);\n\nReactDOM.render(React.createElement(App, null), document.getElementById('app'));"
         },
         {
           "id": null,
@@ -2738,7 +2738,7 @@
               "moduleName": "./src/app.jsx",
               "type": "harmony import specifier",
               "userRequest": "./box",
-              "loc": "73:25-28"
+              "loc": "82:25-28"
             }
           ],
           "usedExports": [
@@ -2797,7 +2797,7 @@
               "moduleName": "./src/app.jsx",
               "type": "harmony import specifier",
               "userRequest": "./scoreboard",
-              "loc": "58:42-52"
+              "loc": "67:42-52"
             },
             {
               "moduleId": null,
@@ -2806,7 +2806,7 @@
               "moduleName": "./src/app.jsx",
               "type": "harmony import specifier",
               "userRequest": "./scoreboard",
-              "loc": "133:46-56"
+              "loc": "142:46-56"
             }
           ],
           "usedExports": [
@@ -2923,15 +2923,6 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "58:22-27"
-        },
-        {
-          "moduleId": "k7yg",
-          "moduleIdentifier": "/home/xeptore/Projects/ordotbox/node_modules/babel-loader/lib/index.js!/home/xeptore/Projects/ordotbox/src/app.jsx 0931f5881f7c58d45078b952b42f8b14",
-          "module": "./src/app.jsx + 2 modules",
-          "moduleName": "./src/app.jsx + 2 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
           "loc": "60:30-35"
         },
         {
@@ -2959,6 +2950,15 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
+          "loc": "67:22-27"
+        },
+        {
+          "moduleId": "k7yg",
+          "moduleIdentifier": "/home/xeptore/Projects/ordotbox/node_modules/babel-loader/lib/index.js!/home/xeptore/Projects/ordotbox/src/app.jsx 0931f5881f7c58d45078b952b42f8b14",
+          "module": "./src/app.jsx + 2 modules",
+          "moduleName": "./src/app.jsx + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
           "loc": "71:2-7"
         },
         {
@@ -2968,7 +2968,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "133:26-31"
+          "loc": "142:26-31"
         },
         {
           "moduleId": "k7yg",
@@ -2977,7 +2977,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "159:13-18"
+          "loc": "168:13-18"
         },
         {
           "moduleId": "k7yg",
@@ -2986,7 +2986,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "161:9-14"
+          "loc": "170:9-14"
         },
         {
           "moduleId": "k7yg",
@@ -2995,7 +2995,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "163:10-15"
+          "loc": "172:10-15"
         },
         {
           "moduleId": "k7yg",
@@ -3004,7 +3004,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "166:15-20"
+          "loc": "175:15-20"
         },
         {
           "moduleId": "k7yg",
@@ -3013,25 +3013,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "171:19-24"
-        },
-        {
-          "moduleId": "k7yg",
-          "moduleIdentifier": "/home/xeptore/Projects/ordotbox/node_modules/babel-loader/lib/index.js!/home/xeptore/Projects/ordotbox/src/app.jsx 0931f5881f7c58d45078b952b42f8b14",
-          "module": "./src/app.jsx + 2 modules",
-          "moduleName": "./src/app.jsx + 2 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
-          "loc": "176:19-24"
-        },
-        {
-          "moduleId": "k7yg",
-          "moduleIdentifier": "/home/xeptore/Projects/ordotbox/node_modules/babel-loader/lib/index.js!/home/xeptore/Projects/ordotbox/src/app.jsx 0931f5881f7c58d45078b952b42f8b14",
-          "module": "./src/app.jsx + 2 modules",
-          "moduleName": "./src/app.jsx + 2 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
-          "loc": "180:15-20"
+          "loc": "180:19-24"
         },
         {
           "moduleId": "k7yg",
@@ -3067,7 +3049,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "206:2-7"
+          "loc": "198:15-20"
         },
         {
           "moduleId": "k7yg",
@@ -3076,7 +3058,25 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "208:16-21"
+          "loc": "203:19-24"
+        },
+        {
+          "moduleId": "k7yg",
+          "moduleIdentifier": "/home/xeptore/Projects/ordotbox/node_modules/babel-loader/lib/index.js!/home/xeptore/Projects/ordotbox/src/app.jsx 0931f5881f7c58d45078b952b42f8b14",
+          "module": "./src/app.jsx + 2 modules",
+          "moduleName": "./src/app.jsx + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "215:2-7"
+        },
+        {
+          "moduleId": "k7yg",
+          "moduleIdentifier": "/home/xeptore/Projects/ordotbox/node_modules/babel-loader/lib/index.js!/home/xeptore/Projects/ordotbox/src/app.jsx 0931f5881f7c58d45078b952b42f8b14",
+          "module": "./src/app.jsx + 2 modules",
+          "moduleName": "./src/app.jsx + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "217:16-21"
         },
         {
           "moduleId": "yl30",
@@ -3849,14 +3849,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3391,
+          "size": 3407,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "5b2c18639aa717ef62281124d3e49dce",
+          "hash": "70957cfcc7b50720ad3d4a5ab4b97fe6",
           "siblings": [
           ],
           "parents": [
@@ -3872,7 +3872,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/resolve-url-loader??ref--5-3!./node_modules/sass-loader/lib/loader.js??ref--5-4!./src/styles/scoreboard.scss",
               "index": 0,
               "index2": 1,
-              "size": 985,
+              "size": 1001,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -3906,7 +3906,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".scoreboard-container{color:#f5f5f5;width:60%;margin:0 auto 50px;padding-left:20px;padding-right:20px;border:2px solid #d3d3d3;border-radius:10px}.scoreboard-container .score-container{display:-webkit-box;display:flex;-webkit-box-pack:justify;justify-content:space-between}.scoreboard-container .winner{-webkit-animation-name:winner;animation-name:winner;-webkit-animation-direction:normal;animation-direction:normal;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:linear;animation-timing-function:linear}@-webkit-keyframes winner{0%{color:#009f9d}25%{color:#ffe98a}50%{color:#ebf0c2}75%{color:#f59aa3}to{color:#009f9d}}@keyframes winner{0%{color:#009f9d}25%{color:#ffe98a}50%{color:#ebf0c2}75%{color:#f59aa3}to{color:#009f9d}}\", \"\"]);\n\n"
+              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".scoreboard-container{color:#f5f5f5;width:60%;max-width:200px;margin:0 auto 50px;padding-left:20px;padding-right:20px;border:2px solid #d3d3d3;border-radius:10px}.scoreboard-container .score-container{display:-webkit-box;display:flex;-webkit-box-pack:justify;justify-content:space-between}.scoreboard-container .winner{-webkit-animation-name:winner;animation-name:winner;-webkit-animation-direction:normal;animation-direction:normal;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:linear;animation-timing-function:linear}@-webkit-keyframes winner{0%{color:#009f9d}25%{color:#ffe98a}50%{color:#ebf0c2}75%{color:#f59aa3}to{color:#009f9d}}@keyframes winner{0%{color:#009f9d}25%{color:#ffe98a}50%{color:#ebf0c2}75%{color:#f59aa3}to{color:#009f9d}}\", \"\"]);\n\n"
             },
             {
               "id": "JPst",
@@ -3978,7 +3978,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/resolve-url-loader??ref--5-3!./node_modules/sass-loader/lib/loader.js??ref--5-4!./src/styles/scoreboard.scss",
           "index": 0,
           "index2": 1,
-          "size": 985,
+          "size": 1001,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4012,7 +4012,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".scoreboard-container{color:#f5f5f5;width:60%;margin:0 auto 50px;padding-left:20px;padding-right:20px;border:2px solid #d3d3d3;border-radius:10px}.scoreboard-container .score-container{display:-webkit-box;display:flex;-webkit-box-pack:justify;justify-content:space-between}.scoreboard-container .winner{-webkit-animation-name:winner;animation-name:winner;-webkit-animation-direction:normal;animation-direction:normal;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:linear;animation-timing-function:linear}@-webkit-keyframes winner{0%{color:#009f9d}25%{color:#ffe98a}50%{color:#ebf0c2}75%{color:#f59aa3}to{color:#009f9d}}@keyframes winner{0%{color:#009f9d}25%{color:#ffe98a}50%{color:#ebf0c2}75%{color:#f59aa3}to{color:#009f9d}}\", \"\"]);\n\n"
+          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".scoreboard-container{color:#f5f5f5;width:60%;max-width:200px;margin:0 auto 50px;padding-left:20px;padding-right:20px;border:2px solid #d3d3d3;border-radius:10px}.scoreboard-container .score-container{display:-webkit-box;display:flex;-webkit-box-pack:justify;justify-content:space-between}.scoreboard-container .winner{-webkit-animation-name:winner;animation-name:winner;-webkit-animation-direction:normal;animation-direction:normal;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:linear;animation-timing-function:linear}@-webkit-keyframes winner{0%{color:#009f9d}25%{color:#ffe98a}50%{color:#ebf0c2}75%{color:#f59aa3}to{color:#009f9d}}@keyframes winner{0%{color:#009f9d}25%{color:#ffe98a}50%{color:#ebf0c2}75%{color:#f59aa3}to{color:#009f9d}}\", \"\"]);\n\n"
         },
         {
           "id": "JPst",
@@ -4114,14 +4114,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3991,
+          "size": 4027,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "394125cd516045619ab2bbb2431d2f67",
+          "hash": "badfbca6e30633a24d6cad2021f3738e",
           "siblings": [
           ],
           "parents": [
@@ -4185,7 +4185,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/resolve-url-loader??ref--5-3!./node_modules/sass-loader/lib/loader.js??ref--5-4!./src/styles/style.scss",
               "index": 0,
               "index2": 1,
-              "size": 1585,
+              "size": 1621,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -4219,7 +4219,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".p-0{padding:0!important}.d-inline-block{display:inline-block}body,html{height:100%;padding:0;margin:0}body{background-color:#1d1d21}.container{height:100%;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center}.container .row:nth-child(2n-1){background-color:#c6e377}.container .row:nth-child(2n-1) .cell{height:15px}.container .row:nth-child(2n) .cell{height:67.5px}.container .row .cell{border:1.5px solid #494949;width:67.5px;display:inline-block}.container .row .cell:nth-child(2n-1){width:15px;background-color:#c6e377}.container .row .cell:nth-child(2n){width:67.5px}.container .row .cell.box{border-color:transparent}.container .row .cell.box.box-user-selected{background-color:#de4242}.container .row .cell.box.box-cpu-selected{background-color:#3f72af}.container .row .cell.edge.clicked{background-color:#857671}.container .row .cell.vertex{background-color:#393e46;border-radius:7.5px;-webkit-transform:scale(1.5);transform:scale(1.5)}.container .row .cell>a.hoverable{-webkit-transition:background-color .3s ease-in-out;transition:background-color .3s ease-in-out;width:100%;height:100%;display:block}.container .row .cell>a.hoverable:hover{-webkit-transition:background-color .1s ease-in-out;transition:background-color .1s ease-in-out;cursor:pointer;background-color:#7ea021}.container .row .cell>a.hoverable.clicked:hover{cursor:auto;background-color:inherit}\", \"\"]);\n\n"
+              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".p-0{padding:0!important}.d-inline-block{display:inline-block}body,html{height:100%;padding:0;margin:0}body{background-color:#1d1d21}.container{min-height:60%;padding-top:5%;padding-bottom:5%;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center}.container .row:nth-child(2n-1){background-color:#c6e377}.container .row:nth-child(2n-1) .cell{height:15px}.container .row:nth-child(2n) .cell{height:67.5px}.container .row .cell{border:1.5px solid #494949;width:67.5px;display:inline-block}.container .row .cell:nth-child(2n-1){width:15px;background-color:#c6e377}.container .row .cell:nth-child(2n){width:67.5px}.container .row .cell.box{border-color:transparent}.container .row .cell.box.box-user-selected{background-color:#de4242}.container .row .cell.box.box-cpu-selected{background-color:#3f72af}.container .row .cell.edge.clicked{background-color:#857671}.container .row .cell.vertex{background-color:#393e46;border-radius:7.5px;-webkit-transform:scale(1.5);transform:scale(1.5)}.container .row .cell>a.hoverable{-webkit-transition:background-color .3s ease-in-out;transition:background-color .3s ease-in-out;width:100%;height:100%;display:block}.container .row .cell>a.hoverable:hover{-webkit-transition:background-color .1s ease-in-out;transition:background-color .1s ease-in-out;cursor:pointer;background-color:#7ea021}.container .row .cell>a.hoverable.clicked:hover{cursor:auto;background-color:inherit}\", \"\"]);\n\n"
             }
           ],
           "filteredModules": 0,
@@ -4291,7 +4291,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/resolve-url-loader??ref--5-3!./node_modules/sass-loader/lib/loader.js??ref--5-4!./src/styles/style.scss",
           "index": 0,
           "index2": 1,
-          "size": 1585,
+          "size": 1621,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4325,7 +4325,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".p-0{padding:0!important}.d-inline-block{display:inline-block}body,html{height:100%;padding:0;margin:0}body{background-color:#1d1d21}.container{height:100%;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center}.container .row:nth-child(2n-1){background-color:#c6e377}.container .row:nth-child(2n-1) .cell{height:15px}.container .row:nth-child(2n) .cell{height:67.5px}.container .row .cell{border:1.5px solid #494949;width:67.5px;display:inline-block}.container .row .cell:nth-child(2n-1){width:15px;background-color:#c6e377}.container .row .cell:nth-child(2n){width:67.5px}.container .row .cell.box{border-color:transparent}.container .row .cell.box.box-user-selected{background-color:#de4242}.container .row .cell.box.box-cpu-selected{background-color:#3f72af}.container .row .cell.edge.clicked{background-color:#857671}.container .row .cell.vertex{background-color:#393e46;border-radius:7.5px;-webkit-transform:scale(1.5);transform:scale(1.5)}.container .row .cell>a.hoverable{-webkit-transition:background-color .3s ease-in-out;transition:background-color .3s ease-in-out;width:100%;height:100%;display:block}.container .row .cell>a.hoverable:hover{-webkit-transition:background-color .1s ease-in-out;transition:background-color .1s ease-in-out;cursor:pointer;background-color:#7ea021}.container .row .cell>a.hoverable.clicked:hover{cursor:auto;background-color:inherit}\", \"\"]);\n\n"
+          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".p-0{padding:0!important}.d-inline-block{display:inline-block}body,html{height:100%;padding:0;margin:0}body{background-color:#1d1d21}.container{min-height:60%;padding-top:5%;padding-bottom:5%;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center}.container .row:nth-child(2n-1){background-color:#c6e377}.container .row:nth-child(2n-1) .cell{height:15px}.container .row:nth-child(2n) .cell{height:67.5px}.container .row .cell{border:1.5px solid #494949;width:67.5px;display:inline-block}.container .row .cell:nth-child(2n-1){width:15px;background-color:#c6e377}.container .row .cell:nth-child(2n){width:67.5px}.container .row .cell.box{border-color:transparent}.container .row .cell.box.box-user-selected{background-color:#de4242}.container .row .cell.box.box-cpu-selected{background-color:#3f72af}.container .row .cell.edge.clicked{background-color:#857671}.container .row .cell.vertex{background-color:#393e46;border-radius:7.5px;-webkit-transform:scale(1.5);transform:scale(1.5)}.container .row .cell>a.hoverable{-webkit-transition:background-color .3s ease-in-out;transition:background-color .3s ease-in-out;width:100%;height:100%;display:block}.container .row .cell>a.hoverable:hover{-webkit-transition:background-color .1s ease-in-out;transition:background-color .1s ease-in-out;cursor:pointer;background-color:#7ea021}.container .row .cell>a.hoverable.clicked:hover{cursor:auto;background-color:inherit}\", \"\"]);\n\n"
         }
       ],
       "filteredModules": 0,
