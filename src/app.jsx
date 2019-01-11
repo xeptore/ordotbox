@@ -6,6 +6,7 @@ import ReactDOM from 'react-dom';
 import { times, range, chunk, head, pull, sample } from 'lodash';
 
 import Box from './box';
+import ScoreBoard from './scoreboard';
 
 const n = 3;
 const MaxEdges = (n * (n + 1)) * 2;
@@ -30,6 +31,7 @@ class App extends React.Component {
         this.Boxes = [];
     }
     componentDidMount() {
+        ReactDOM.render(<ScoreBoard player={scores.player} cpu={scores.cpu} total={n * n} />, document.getElementById('scoreboard'));
         uids.box = 0;
         const headsTop = chunk(range(MaxEdges - n), 2 * n + 1).map(head);
         const boxes = [];
@@ -87,6 +89,7 @@ class App extends React.Component {
                     box.Element.classList.add('box-cpu-selected');
                     scores.cpu++;
                 }
+                ReactDOM.render(<ScoreBoard player={scores.player} cpu={scores.cpu} total={n * n} />, document.getElementById('scoreboard'));
             }
         });
         const currentCpuScore = player === 0 ? scores.cpu : -1;
@@ -104,35 +107,38 @@ class App extends React.Component {
     render() {
         return (
             <div className="wrapper">
-                {
-                    times(2 * n + 1, i => {
-                        return (
-                            <div className="row" key={uids.row++}>
-                                {
-                                    times(2 * n + 1, j => {
-                                        if (i % 2 === 0 && j % 2 === 0) {
-                                            return <div className="cell vertex" key={uids.cell++}></div>;
-                                        } else if (i % 2 === 1 && j % 2 === 0) {
-                                            return (
-                                                <div className="cell edge vedge" key={uids.cell++} id={uids.edges++}>
-                                                    <a className="hoverable" onClick={this.handleClick}></a>
-                                                </div>
-                                            );
-                                        } else if (i % 2 === 0 && j % 2 === 1) {
-                                            return (
-                                                <div className="cell edge hedge" key={uids.cell++} id={uids.edges++}>
-                                                    <a className="hoverable" onClick={this.handleClick}></a>
-                                                </div>
-                                            );
-                                        } else {
-                                            return <div className="cell box" key={uids.cell++} id={`b${uids.box++}`}></div>;
-                                        }
-                                    })
-                                }
-                            </div>
-                        );
-                    })
-                }
+                <div id="scoreboard"></div>
+                <div className="game-wrapper">
+                    {
+                        times(2 * n + 1, i => {
+                            return (
+                                <div className="row" key={uids.row++}>
+                                    {
+                                        times(2 * n + 1, j => {
+                                            if (i % 2 === 0 && j % 2 === 0) {
+                                                return <div className="cell vertex" key={uids.cell++}></div>;
+                                            } else if (i % 2 === 1 && j % 2 === 0) {
+                                                return (
+                                                    <div className="cell edge vedge" key={uids.cell++} id={uids.edges++}>
+                                                        <a className="hoverable" onClick={this.handleClick}></a>
+                                                    </div>
+                                                );
+                                            } else if (i % 2 === 0 && j % 2 === 1) {
+                                                return (
+                                                    <div className="cell edge hedge" key={uids.cell++} id={uids.edges++}>
+                                                        <a className="hoverable" onClick={this.handleClick}></a>
+                                                    </div>
+                                                );
+                                            } else {
+                                                return <div className="cell box" key={uids.cell++} id={`b${uids.box++}`}></div>;
+                                            }
+                                        })
+                                    }
+                                </div>
+                            );
+                        })
+                    }
+                </div>
             </div>
         );
     }
