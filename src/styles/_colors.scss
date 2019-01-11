@@ -1,0 +1,12 @@
+$colors: (
+    document-background: #1D1D21,
+    vertices-background: #393E46,
+    borders: #494949,
+    edges: (
+        hovered: darken(#C6E377, 30%),
+        clicked: #857671,
+        default: #C6E377
+    ),
+    player: #DE4242,
+    cpu: #3F72AF
+);
