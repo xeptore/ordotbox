@@ -8,7 +8,7 @@ import { times, range, chunk, head, pull, sample } from 'lodash';
 import Box from './box';
 import ScoreBoard from './scoreboard';
 
-const n = 3;
+let n = 3;
 const MaxEdges = (n * (n + 1)) * 2;
 const scores = {
     cpu: 0,
@@ -27,6 +27,13 @@ const RemainingEdges = range(MaxEdges);
 class App extends React.Component {
     constructor() {
         super();
+        const size = prompt('Enter size of the game (3 - 9):');
+        const parsedIntSize = parseInt(size);
+        if (parsedIntSize == size && parsedIntSize < 10 && parsedIntSize > 2) {
+            n = parsedIntSize;
+        } else {
+            alert('Invalid size. set to 3');
+        }
         this.handleClick = this.handleClick.bind(this);
         this.Boxes = [];
     }
