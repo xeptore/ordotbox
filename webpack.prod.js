@@ -49,7 +49,7 @@ module.exports = merge(common,
                     ],
                     use: [
                         {
-                            loader: 'style-loader'
+                            loader: MiniCssExtractPlugin.loader
                         },
                         {
                             loader: 'css-loader',
@@ -125,9 +125,9 @@ module.exports = merge(common,
                 chunkFilename: '[name].[contenthash].[hash].[chunkhash].css'
             }),
             new HtmlWebpackPlugin({
-                template: path.resolve(__dirname, 'src', 'index.pug'),
+                template: path.resolve(__dirname, 'src', 'index.html'),
                 filename: path.join('index.html'),
-                chunks: ['main'],
+                chunks: ['main', 'vendors', 'runtime'],
                 meta: TemplateMeta,
                 minify: minificationConfig
             })
