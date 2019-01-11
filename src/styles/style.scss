@@ -1,8 +1,9 @@
+@import "./settings";
 @import "./colors";
 @import "./utils";
 
-$length: 45px;
-$height: 10px;
+$length: 45px * $scale;
+$height: 10px * $scale;
 
 
 html, body {
@@ -21,72 +22,69 @@ body {
     align-items: center;
     justify-content: center;
 
-    .wrapper {
-        transform: scale(1.3);
 
-        .row {
+    .row {
+        &:nth-child(2n - 1) {
+            background-color: map-get(map-get($colors, edges), default);
+            .cell {
+                height: $height;
+            }
+        }
+        &:nth-child(2n) {
+            .cell {
+                height: $length;
+            }
+        }
+
+        .cell {
+            border: (1px * $scale) solid map-get($colors, borders);
+            width: $length;
+            display: inline-block;
+
             &:nth-child(2n - 1) {
+                width: $height;
                 background-color: map-get(map-get($colors, edges), default);
-                .cell {
-                    height: $height;
-                }
             }
             &:nth-child(2n) {
-                .cell {
-                    height: $length;
+                width: $length;
+            }
+
+            &.box {
+                border-color: transparent;
+
+                &.box-user-selected {
+                    background-color: map-get($colors, player);
+                }
+                &.box-cpu-selected {
+                    background-color: map-get($colors, cpu);
                 }
             }
 
-            .cell {
-                border: 1px solid map-get($colors, borders);
-                width: $length;
-                display: inline-block;
+            &.edge.clicked {
+                background-color: map-get(map-get($colors, edges), clicked);
+            }
 
-                &:nth-child(2n - 1) {
-                    width: $height;
-                    background-color: map-get(map-get($colors, edges), default);
-                }
-                &:nth-child(2n) {
-                    width: $length;
-                }
+            &.vertex {
+                background-color: map-get($colors, vertices-background);
+                border-radius: 5px * $scale;
+                transform: scale(1.5);
+            }
 
-                &.box {
-                    border-color: transparent;
+            &>a.hoverable {
+                transition: background-color 300ms ease-in-out;
+                width: 100%;
+                height: 100%;
+                display: block;
 
-                    &.box-user-selected {
-                        background-color: map-get($colors, player);
-                    }
-                    &.box-cpu-selected {
-                        background-color: map-get($colors, cpu);
-                    }
+                &:hover {
+                    transition: background-color 100ms ease-in-out;
+                    cursor: pointer;
+                    background-color: map-get(map-get($colors, edges), hovered);
                 }
 
-                &.edge.clicked {
-                    background-color: map-get(map-get($colors, edges), clicked);
-                }
-
-                &.vertex {
-                    background-color: map-get($colors, vertices-background);
-                    border-radius: 5px;
-                    transform: scale(1.5);
-                }
-
-                &>a.hoverable {
-                    transition: background-color 300ms ease-in-out;
-                    width: 100%;
-                    height: 100%;
-                    display: block;
-
-                    &:hover {
-                        transition: background-color 100ms ease-in-out;
-                        cursor: pointer;
-                        background-color: map-get(map-get($colors, edges), hovered);
-                    }
-
-                    &.clicked:hover {
-                        cursor: auto;
-                        background-color: inherit;
-                    }
+                &.clicked:hover {
+                    cursor: auto;
+                    background-color: inherit;
                 }
             }
         }
