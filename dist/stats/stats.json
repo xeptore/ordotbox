@@ -6,14 +6,14 @@
     "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
   ],
   "version": "4.28.4",
-  "hash": "283ac48acbf785b6542cad8036ee9b20",
-  "time": 5275,
-  "builtAt": 1547186961759,
+  "hash": "52b97c08ee1f0abcd21046c8f75defd6",
+  "time": 5751,
+  "builtAt": 1547188038823,
   "publicPath": "",
   "outputPath": "/home/xeptore/Projects/ordotbox/dist",
   "assetsByChunkName": {
     "main": [
-      "main.3697008c378836fe1610ff5fb6a7f40d.283ac48acbf785b6542cad8036ee9b20.6b101a846509dcff573198ef6c2e187f.css",
+      "main.3697008c378836fe1610ff5fb6a7f40d.52b97c08ee1f0abcd21046c8f75defd6.73dbbcde546828b7ba72e681bb0ce9f6.css",
       "main.js"
     ],
     "runtime": "runtime.js",
@@ -22,7 +22,7 @@
   "assets": [
     {
       "name": "main.js",
-      "size": 6846,
+      "size": 6883,
       "chunks": [
         0
       ],
@@ -65,7 +65,7 @@
       "assets": [
         "runtime.js",
         "vendors.js",
-        "main.3697008c378836fe1610ff5fb6a7f40d.283ac48acbf785b6542cad8036ee9b20.6b101a846509dcff573198ef6c2e187f.css",
+        "main.3697008c378836fe1610ff5fb6a7f40d.52b97c08ee1f0abcd21046c8f75defd6.73dbbcde546828b7ba72e681bb0ce9f6.css",
         "main.js"
       ],
       "children": {
@@ -84,7 +84,7 @@
       "assets": [
         "runtime.js",
         "vendors.js",
-        "main.3697008c378836fe1610ff5fb6a7f40d.283ac48acbf785b6542cad8036ee9b20.6b101a846509dcff573198ef6c2e187f.css",
+        "main.3697008c378836fe1610ff5fb6a7f40d.52b97c08ee1f0abcd21046c8f75defd6.73dbbcde546828b7ba72e681bb0ce9f6.css",
         "main.js"
       ],
       "children": {
@@ -99,15 +99,15 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 14855,
+      "size": 14933,
       "names": [
         "main"
       ],
       "files": [
-        "main.3697008c378836fe1610ff5fb6a7f40d.283ac48acbf785b6542cad8036ee9b20.6b101a846509dcff573198ef6c2e187f.css",
+        "main.3697008c378836fe1610ff5fb6a7f40d.52b97c08ee1f0abcd21046c8f75defd6.73dbbcde546828b7ba72e681bb0ce9f6.css",
         "main.js"
       ],
-      "hash": "6b101a846509dcff573198ef6c2e187f",
+      "hash": "73dbbcde546828b7ba72e681bb0ce9f6",
       "siblings": [
         1,
         2
@@ -276,7 +276,7 @@
           "name": "./src/app.jsx + 2 modules",
           "index": 0,
           "index2": 19,
-          "size": 12439,
+          "size": 12517,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -321,7 +321,7 @@
               "name": "./src/app.jsx",
               "index": 0,
               "index2": 19,
-              "size": 7975,
+              "size": 8053,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -355,7 +355,7 @@
                 "ModuleConcatenation bailout: Module is an entry point"
               ],
               "depth": 0,
-              "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nimport './styles/style.scss';\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { times, range, chunk, head, pull, sample } from 'lodash';\nimport Box from './box';\nimport ScoreBoard from './scoreboard';\nvar n = 3;\nvar MaxEdges = n * (n + 1) * 2;\nvar scores = {\n  cpu: 0,\n  player: 0\n};\nvar uids = {\n  row: 0,\n  box: 0,\n  cell: -1,\n  edges: 0\n};\nvar RemainingEdges = range(MaxEdges);\n\nvar App =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _this;\n\n    _classCallCheck(this, App);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(App).call(this));\n    var size = prompt('Enter size of the game (3 - 9):');\n    var parsedIntSize = parseInt(size);\n\n    if (parsedIntSize == size && parsedIntSize < 10 && parsedIntSize > 2) {\n      n = parsedIntSize;\n    } else {\n      alert('Invalid size. set to 3');\n    }\n\n    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_assertThisInitialized(_this)));\n    _this.Boxes = [];\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      ReactDOM.render(React.createElement(ScoreBoard, {\n        player: scores.player,\n        cpu: scores.cpu,\n        total: n * n\n      }), document.getElementById('scoreboard'));\n      uids.box = 0;\n      var headsTop = chunk(range(MaxEdges - n), 2 * n + 1).map(head);\n      var boxes = [];\n      var idx = 0;\n      chunk(range(9), 3).forEach(function (row, i) {\n        row.forEach(function (box, j) {\n          var top = headsTop[i] + j;\n          var left = top + n;\n          var right = left + 1;\n          var bottom = right + n;\n          boxes.push(new Box(box, document.getElementById(\"b\".concat(idx++)), [top, right, bottom, left]));\n        });\n      });\n      this.Boxes = boxes;\n    }\n  }, {\n    key: \"handleClick\",\n    value: function handleClick(e) {\n      if (e.target.getAttribute('clicked')) {\n        return;\n      }\n\n      var edge = document.getElementById(e.target.parentNode.getAttribute('id'));\n      var prevPlayerScore = scores.player;\n      this.playerSelectedEdge(1, edge);\n\n      if (scores.player === prevPlayerScore) {\n        this.playcpu();\n      }\n    }\n  }, {\n    key: \"playcpu\",\n    value: function playcpu() {\n      var edge = this.selectRandomEdge();\n      this.playerSelectedEdge(0, edge);\n    }\n  }, {\n    key: \"selectRandomEdge\",\n    value: function selectRandomEdge() {\n      var edgeID = sample(RemainingEdges);\n      return document.getElementById(edgeID);\n    }\n  }, {\n    key: \"playerSelectedEdge\",\n    value: function playerSelectedEdge(player, edge) {\n      edge.classList.add('clicked');\n      edge.children[0].classList.add('clicked');\n      edge.children[0].setAttribute('clicked', true);\n      pull(RemainingEdges, parseInt(edge.id));\n      var selectedEdgeBoxes = this.Boxes.filter(function (box) {\n        var index = box.Edges.indexOf(parseInt(edge.id));\n\n        if (index !== -1) {\n          box.SelectedEdges.push(index);\n          return true;\n        }\n\n        return false;\n      });\n      var prevCpuScore = player === 0 ? scores.cpu : -1;\n      selectedEdgeBoxes.forEach(function (box) {\n        if (--box.RemainingEdges === 0) {\n          if (player === 1) {\n            box.Element.classList.add('box-user-selected');\n            scores.player++;\n          } else {\n            box.Element.classList.add('box-cpu-selected');\n            scores.cpu++;\n          }\n\n          ReactDOM.render(React.createElement(ScoreBoard, {\n            player: scores.player,\n            cpu: scores.cpu,\n            total: n * n\n          }), document.getElementById('scoreboard'));\n        }\n      });\n      var currentCpuScore = player === 0 ? scores.cpu : -1;\n\n      if (currentCpuScore > prevCpuScore && player === 0 && RemainingEdges.length !== 0) {\n        this.playcpu();\n        return;\n      }\n\n      if (scores.player + scores.cpu === n * n) {\n        console.log('finished!');\n        console.log('scores:');\n        console.log('player:', scores.player);\n        console.log('cpu:', scores.cpu);\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this2 = this;\n\n      return React.createElement(\"div\", {\n        className: \"wrapper\"\n      }, React.createElement(\"div\", {\n        id: \"scoreboard\"\n      }), React.createElement(\"div\", {\n        className: \"game-wrapper\"\n      }, times(2 * n + 1, function (i) {\n        return React.createElement(\"div\", {\n          className: \"row\",\n          key: uids.row++\n        }, times(2 * n + 1, function (j) {\n          if (i % 2 === 0 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell vertex\",\n              key: uids.cell++\n            });\n          } else if (i % 2 === 1 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell edge vedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else if (i % 2 === 0 && j % 2 === 1) {\n            return React.createElement(\"div\", {\n              className: \"cell edge hedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else {\n            return React.createElement(\"div\", {\n              className: \"cell box\",\n              key: uids.cell++,\n              id: \"b\".concat(uids.box++)\n            });\n          }\n        }));\n      })));\n    }\n  }]);\n\n  return App;\n}(React.Component);\n\nReactDOM.render(React.createElement(App, null), document.getElementById('app'));"
+              "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nimport './styles/style.scss';\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { times, range, chunk, head, pull, sample } from 'lodash';\nimport Box from './box';\nimport ScoreBoard from './scoreboard';\nvar n = 3;\nvar MaxEdges = n * (n + 1) * 2;\nvar scores = {\n  cpu: 0,\n  player: 0\n};\nvar uids = {\n  row: 0,\n  box: 0,\n  cell: -1,\n  edges: 0\n};\nvar RemainingEdges = range(MaxEdges);\n\nvar App =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _this;\n\n    _classCallCheck(this, App);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(App).call(this));\n    var size = prompt('Enter size of the game (3 - 9):');\n    var parsedIntSize = parseInt(size);\n\n    if (parsedIntSize == size && parsedIntSize < 10 && parsedIntSize > 2) {\n      n = parsedIntSize;\n      MaxEdges = n * (n + 1) * 2;\n      RemainingEdges = range(MaxEdges);\n    } else {\n      alert('Invalid size. set to 3');\n    }\n\n    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_assertThisInitialized(_this)));\n    _this.Boxes = [];\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      ReactDOM.render(React.createElement(ScoreBoard, {\n        player: scores.player,\n        cpu: scores.cpu,\n        total: n * n\n      }), document.getElementById('scoreboard'));\n      uids.box = 0;\n      var headsTop = chunk(range(MaxEdges - n), 2 * n + 1).map(head);\n      var boxes = [];\n      var idx = 0;\n      chunk(range(n * n), n).forEach(function (row, i) {\n        row.forEach(function (box, j) {\n          var top = headsTop[i] + j;\n          var left = top + n;\n          var right = left + 1;\n          var bottom = right + n;\n          boxes.push(new Box(box, document.getElementById(\"b\".concat(idx++)), [top, right, bottom, left]));\n        });\n      });\n      this.Boxes = boxes;\n    }\n  }, {\n    key: \"handleClick\",\n    value: function handleClick(e) {\n      if (e.target.getAttribute('clicked')) {\n        return;\n      }\n\n      var edge = document.getElementById(e.target.parentNode.getAttribute('id'));\n      var prevPlayerScore = scores.player;\n      this.playerSelectedEdge(1, edge);\n\n      if (scores.player === prevPlayerScore) {\n        this.playcpu();\n      }\n    }\n  }, {\n    key: \"playcpu\",\n    value: function playcpu() {\n      var edge = this.selectRandomEdge();\n      this.playerSelectedEdge(0, edge);\n    }\n  }, {\n    key: \"selectRandomEdge\",\n    value: function selectRandomEdge() {\n      var edgeID = sample(RemainingEdges);\n      return document.getElementById(edgeID);\n    }\n  }, {\n    key: \"playerSelectedEdge\",\n    value: function playerSelectedEdge(player, edge) {\n      edge.classList.add('clicked');\n      edge.children[0].classList.add('clicked');\n      edge.children[0].setAttribute('clicked', true);\n      pull(RemainingEdges, parseInt(edge.id));\n      var selectedEdgeBoxes = this.Boxes.filter(function (box) {\n        var index = box.Edges.indexOf(parseInt(edge.id));\n\n        if (index !== -1) {\n          box.SelectedEdges.push(index);\n          return true;\n        }\n\n        return false;\n      });\n      var prevCpuScore = player === 0 ? scores.cpu : -1;\n      selectedEdgeBoxes.forEach(function (box) {\n        if (--box.RemainingEdges === 0) {\n          if (player === 1) {\n            box.Element.classList.add('box-user-selected');\n            scores.player++;\n          } else {\n            box.Element.classList.add('box-cpu-selected');\n            scores.cpu++;\n          }\n\n          ReactDOM.render(React.createElement(ScoreBoard, {\n            player: scores.player,\n            cpu: scores.cpu,\n            total: n * n\n          }), document.getElementById('scoreboard'));\n        }\n      });\n      var currentCpuScore = player === 0 ? scores.cpu : -1;\n\n      if (currentCpuScore > prevCpuScore && player === 0 && RemainingEdges.length !== 0) {\n        this.playcpu();\n        return;\n      }\n\n      if (scores.player + scores.cpu === n * n) {\n        console.log('finished!');\n        console.log('scores:');\n        console.log('player:', scores.player);\n        console.log('cpu:', scores.cpu);\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this2 = this;\n\n      return React.createElement(\"div\", {\n        className: \"wrapper\"\n      }, React.createElement(\"div\", {\n        id: \"scoreboard\"\n      }), React.createElement(\"div\", {\n        className: \"game-wrapper\"\n      }, times(2 * n + 1, function (i) {\n        return React.createElement(\"div\", {\n          className: \"row\",\n          key: uids.row++\n        }, times(2 * n + 1, function (j) {\n          if (i % 2 === 0 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell vertex\",\n              key: uids.cell++\n            });\n          } else if (i % 2 === 1 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell edge vedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else if (i % 2 === 0 && j % 2 === 1) {\n            return React.createElement(\"div\", {\n              className: \"cell edge hedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else {\n            return React.createElement(\"div\", {\n              className: \"cell box\",\n              key: uids.cell++,\n              id: \"b\".concat(uids.box++)\n            });\n          }\n        }));\n      })));\n    }\n  }]);\n\n  return App;\n}(React.Component);\n\nReactDOM.render(React.createElement(App, null), document.getElementById('app'));"
             },
             {
               "id": null,
@@ -402,7 +402,7 @@
                   "moduleName": "./src/app.jsx",
                   "type": "harmony import specifier",
                   "userRequest": "./box",
-                  "loc": "82:25-28"
+                  "loc": "84:25-28"
                 }
               ],
               "usedExports": [
@@ -461,7 +461,7 @@
                   "moduleName": "./src/app.jsx",
                   "type": "harmony import specifier",
                   "userRequest": "./scoreboard",
-                  "loc": "67:42-52"
+                  "loc": "69:42-52"
                 },
                 {
                   "moduleId": null,
@@ -470,7 +470,7 @@
                   "moduleName": "./src/app.jsx",
                   "type": "harmony import specifier",
                   "userRequest": "./scoreboard",
-                  "loc": "142:46-56"
+                  "loc": "144:46-56"
                 }
               ],
               "usedExports": [
@@ -486,7 +486,7 @@
             }
           ],
           "filteredModules": 0,
-          "parsedSrc": "function(e,t,n){\"use strict\";n.r(t);n(\"/OlT\");var r=n(\"q1tI\"),a=n.n(r),o=n(\"i8i4\"),u=n.n(o),p=n(\"LvDl\");var f=function e(t,n,r){!function(e,t){if(!(e instanceof t))throw new TypeError(\"Cannot call a class as a function\")}(this,e),this.ID=t,this.Edges=Object(p.times)(4,function(e){return r[e]}),this.Element=n,this.SelectedEdges=[],this.RemainingEdges=4},c=n(\"17x9\"),l=n.n(c);n(\"t4ym\");function i(e){return(i=\"function\"==typeof Symbol&&\"symbol\"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&\"function\"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?\"symbol\":typeof e})(e)}function s(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,\"value\"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function d(e,t){return!t||\"object\"!==i(t)&&\"function\"!=typeof t?function(e){if(void 0!==e)return e;throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\")}(e):t}function y(e){return(y=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function m(e,t){return(m=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}var b=function(e){function t(e){return function(e,t){if(!(e instanceof t))throw new TypeError(\"Cannot call a class as a function\")}(this,t),d(this,y(t).call(this,e))}var n,r,o;return function(e,t){if(\"function\"!=typeof t&&null!==t)throw new TypeError(\"Super expression must either be null or a function\");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&m(e,t)}(t,a.a.Component),n=t,(r=[{key:\"winner\",value:function(){if(this.props.total===this.props.cpu+this.props.player){if(this.props.cpu>this.props.player)return\"cpu\";if(this.props.player>this.props.cpu)return\"player\"}return!1}},{key:\"render\",value:function(){return a.a.createElement(\"div\",{className:\"scoreboard-container\"},a.a.createElement(\"div\",{className:\"scores-container\"},a.a.createElement(\"div\",{className:\"score-container player-score \".concat(\"player\"===this.winner()?\"winner\":\"\")},a.a.createElement(\"p\",{className:\"score-title d-inline-block\"},\"Player:\"),a.a.createElement(\"p\",{className:\"score player d-inline-block\"},this.props.player)),a.a.createElement(\"div\",{className:\"score-container cpu-score \".concat(\"cpu\"===this.winner()?\"winner\":\"\")},a.a.createElement(\"p\",{className:\"score-title d-inline-block\"},\"CPU:\"),a.a.createElement(\"p\",{className:\"score cpu d-inline-block\"},this.props.cpu))))}}])&&s(n.prototype,r),o&&s(n,o),t}();function h(e){return(h=\"function\"==typeof Symbol&&\"symbol\"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&\"function\"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?\"symbol\":typeof e})(e)}function g(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,\"value\"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function v(e){return(v=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function E(e,t){return(E=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}function k(e){if(void 0===e)throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");return e}b.propTypes={player:l.a.number,cpu:l.a.number,total:l.a.number};var w=3,O=w*(w+1)*2,j={cpu:0,player:0},N={row:0,box:0,cell:-1,edges:0},S=Object(p.range)(O),_=function(e){function c(){var e,t,n;!function(e,t){if(!(e instanceof t))throw new TypeError(\"Cannot call a class as a function\")}(this,c),t=this,e=!(n=v(c).call(this))||\"object\"!==h(n)&&\"function\"!=typeof n?k(t):n;var r=prompt(\"Enter size of the game (3 - 9):\"),o=parseInt(r);return o==r&&o<10&&2<o?w=o:alert(\"Invalid size. set to 3\"),e.handleClick=e.handleClick.bind(k(k(e))),e.Boxes=[],e}var t,n,r;return function(e,t){if(\"function\"!=typeof t&&null!==t)throw new TypeError(\"Super expression must either be null or a function\");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&E(e,t)}(c,a.a.Component),t=c,(n=[{key:\"componentDidMount\",value:function(){u.a.render(a.a.createElement(b,{player:j.player,cpu:j.cpu,total:w*w}),document.getElementById(\"scoreboard\")),N.box=0;var l=Object(p.chunk)(Object(p.range)(O-w),2*w+1).map(p.head),i=[],s=0;Object(p.chunk)(Object(p.range)(9),3).forEach(function(e,a){e.forEach(function(e,t){var n=l[a]+t,r=n+w,o=r+1,c=o+w;i.push(new f(e,document.getElementById(\"b\".concat(s++)),[n,o,c,r]))})}),this.Boxes=i}},{key:\"handleClick\",value:function(e){if(!e.target.getAttribute(\"clicked\")){var t=document.getElementById(e.target.parentNode.getAttribute(\"id\")),n=j.player;this.playerSelectedEdge(1,t),j.player===n&&this.playcpu()}}},{key:\"playcpu\",value:function(){var e=this.selectRandomEdge();this.playerSelectedEdge(0,e)}},{key:\"selectRandomEdge\",value:function(){var e=Object(p.sample)(S);return document.getElementById(e)}},{key:\"playerSelectedEdge\",value:function(t,n){n.classList.add(\"clicked\"),n.children[0].classList.add(\"clicked\"),n.children[0].setAttribute(\"clicked\",!0),Object(p.pull)(S,parseInt(n.id));var e=this.Boxes.filter(function(e){var t=e.Edges.indexOf(parseInt(n.id));return-1!==t&&(e.SelectedEdges.push(t),!0)}),r=0===t?j.cpu:-1;e.forEach(function(e){0==--e.RemainingEdges&&(1===t?(e.Element.classList.add(\"box-user-selected\"),j.player++):(e.Element.classList.add(\"box-cpu-selected\"),j.cpu++),u.a.render(a.a.createElement(b,{player:j.player,cpu:j.cpu,total:w*w}),document.getElementById(\"scoreboard\")))}),r<(0===t?j.cpu:-1)&&0===t&&0!==S.length?this.playcpu():j.player+j.cpu===w*w&&(console.log(\"finished!\"),console.log(\"scores:\"),console.log(\"player:\",j.player),console.log(\"cpu:\",j.cpu))}},{key:\"render\",value:function(){var n=this;return a.a.createElement(\"div\",{className:\"wrapper\"},a.a.createElement(\"div\",{id:\"scoreboard\"}),a.a.createElement(\"div\",{className:\"game-wrapper\"},Object(p.times)(2*w+1,function(t){return a.a.createElement(\"div\",{className:\"row\",key:N.row++},Object(p.times)(2*w+1,function(e){return t%2==0&&e%2==0?a.a.createElement(\"div\",{className:\"cell vertex\",key:N.cell++}):t%2==1&&e%2==0?a.a.createElement(\"div\",{className:\"cell edge vedge\",key:N.cell++,id:N.edges++},a.a.createElement(\"a\",{className:\"hoverable\",onClick:n.handleClick})):t%2==0&&e%2==1?a.a.createElement(\"div\",{className:\"cell edge hedge\",key:N.cell++,id:N.edges++},a.a.createElement(\"a\",{className:\"hoverable\",onClick:n.handleClick})):a.a.createElement(\"div\",{className:\"cell box\",key:N.cell++,id:\"b\".concat(N.box++)})}))})))}}])&&g(t.prototype,n),r&&g(t,r),c}();u.a.render(a.a.createElement(_,null),document.getElementById(\"app\"))}"
+          "parsedSrc": "function(e,t,n){\"use strict\";n.r(t);n(\"/OlT\");var r=n(\"q1tI\"),a=n.n(r),o=n(\"i8i4\"),u=n.n(o),p=n(\"LvDl\");var f=function e(t,n,r){!function(e,t){if(!(e instanceof t))throw new TypeError(\"Cannot call a class as a function\")}(this,e),this.ID=t,this.Edges=Object(p.times)(4,function(e){return r[e]}),this.Element=n,this.SelectedEdges=[],this.RemainingEdges=4},c=n(\"17x9\"),l=n.n(c);n(\"t4ym\");function i(e){return(i=\"function\"==typeof Symbol&&\"symbol\"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&\"function\"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?\"symbol\":typeof e})(e)}function s(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,\"value\"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function d(e,t){return!t||\"object\"!==i(t)&&\"function\"!=typeof t?function(e){if(void 0!==e)return e;throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\")}(e):t}function y(e){return(y=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function m(e,t){return(m=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}var b=function(e){function t(e){return function(e,t){if(!(e instanceof t))throw new TypeError(\"Cannot call a class as a function\")}(this,t),d(this,y(t).call(this,e))}var n,r,o;return function(e,t){if(\"function\"!=typeof t&&null!==t)throw new TypeError(\"Super expression must either be null or a function\");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&m(e,t)}(t,a.a.Component),n=t,(r=[{key:\"winner\",value:function(){if(this.props.total===this.props.cpu+this.props.player){if(this.props.cpu>this.props.player)return\"cpu\";if(this.props.player>this.props.cpu)return\"player\"}return!1}},{key:\"render\",value:function(){return a.a.createElement(\"div\",{className:\"scoreboard-container\"},a.a.createElement(\"div\",{className:\"scores-container\"},a.a.createElement(\"div\",{className:\"score-container player-score \".concat(\"player\"===this.winner()?\"winner\":\"\")},a.a.createElement(\"p\",{className:\"score-title d-inline-block\"},\"Player:\"),a.a.createElement(\"p\",{className:\"score player d-inline-block\"},this.props.player)),a.a.createElement(\"div\",{className:\"score-container cpu-score \".concat(\"cpu\"===this.winner()?\"winner\":\"\")},a.a.createElement(\"p\",{className:\"score-title d-inline-block\"},\"CPU:\"),a.a.createElement(\"p\",{className:\"score cpu d-inline-block\"},this.props.cpu))))}}])&&s(n.prototype,r),o&&s(n,o),t}();function h(e){return(h=\"function\"==typeof Symbol&&\"symbol\"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&\"function\"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?\"symbol\":typeof e})(e)}function g(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,\"value\"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function v(e){return(v=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function E(e,t){return(E=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}function k(e){if(void 0===e)throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");return e}b.propTypes={player:l.a.number,cpu:l.a.number,total:l.a.number};var w=3,O=w*(w+1)*2,j={cpu:0,player:0},N={row:0,box:0,cell:-1,edges:0},S=Object(p.range)(O),_=function(e){function c(){var e,t,n;!function(e,t){if(!(e instanceof t))throw new TypeError(\"Cannot call a class as a function\")}(this,c),t=this,e=!(n=v(c).call(this))||\"object\"!==h(n)&&\"function\"!=typeof n?k(t):n;var r=prompt(\"Enter size of the game (3 - 9):\"),o=parseInt(r);return o==r&&o<10&&2<o?(O=(w=o)*(w+1)*2,S=Object(p.range)(O)):alert(\"Invalid size. set to 3\"),e.handleClick=e.handleClick.bind(k(k(e))),e.Boxes=[],e}var t,n,r;return function(e,t){if(\"function\"!=typeof t&&null!==t)throw new TypeError(\"Super expression must either be null or a function\");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&E(e,t)}(c,a.a.Component),t=c,(n=[{key:\"componentDidMount\",value:function(){u.a.render(a.a.createElement(b,{player:j.player,cpu:j.cpu,total:w*w}),document.getElementById(\"scoreboard\")),N.box=0;var l=Object(p.chunk)(Object(p.range)(O-w),2*w+1).map(p.head),i=[],s=0;Object(p.chunk)(Object(p.range)(w*w),w).forEach(function(e,a){e.forEach(function(e,t){var n=l[a]+t,r=n+w,o=r+1,c=o+w;i.push(new f(e,document.getElementById(\"b\".concat(s++)),[n,o,c,r]))})}),this.Boxes=i}},{key:\"handleClick\",value:function(e){if(!e.target.getAttribute(\"clicked\")){var t=document.getElementById(e.target.parentNode.getAttribute(\"id\")),n=j.player;this.playerSelectedEdge(1,t),j.player===n&&this.playcpu()}}},{key:\"playcpu\",value:function(){var e=this.selectRandomEdge();this.playerSelectedEdge(0,e)}},{key:\"selectRandomEdge\",value:function(){var e=Object(p.sample)(S);return document.getElementById(e)}},{key:\"playerSelectedEdge\",value:function(t,n){n.classList.add(\"clicked\"),n.children[0].classList.add(\"clicked\"),n.children[0].setAttribute(\"clicked\",!0),Object(p.pull)(S,parseInt(n.id));var e=this.Boxes.filter(function(e){var t=e.Edges.indexOf(parseInt(n.id));return-1!==t&&(e.SelectedEdges.push(t),!0)}),r=0===t?j.cpu:-1;e.forEach(function(e){0==--e.RemainingEdges&&(1===t?(e.Element.classList.add(\"box-user-selected\"),j.player++):(e.Element.classList.add(\"box-cpu-selected\"),j.cpu++),u.a.render(a.a.createElement(b,{player:j.player,cpu:j.cpu,total:w*w}),document.getElementById(\"scoreboard\")))}),r<(0===t?j.cpu:-1)&&0===t&&0!==S.length?this.playcpu():j.player+j.cpu===w*w&&(console.log(\"finished!\"),console.log(\"scores:\"),console.log(\"player:\",j.player),console.log(\"cpu:\",j.cpu))}},{key:\"render\",value:function(){var n=this;return a.a.createElement(\"div\",{className:\"wrapper\"},a.a.createElement(\"div\",{id:\"scoreboard\"}),a.a.createElement(\"div\",{className:\"game-wrapper\"},Object(p.times)(2*w+1,function(t){return a.a.createElement(\"div\",{className:\"row\",key:N.row++},Object(p.times)(2*w+1,function(e){return t%2==0&&e%2==0?a.a.createElement(\"div\",{className:\"cell vertex\",key:N.cell++}):t%2==1&&e%2==0?a.a.createElement(\"div\",{className:\"cell edge vedge\",key:N.cell++,id:N.edges++},a.a.createElement(\"a\",{className:\"hoverable\",onClick:n.handleClick})):t%2==0&&e%2==1?a.a.createElement(\"div\",{className:\"cell edge hedge\",key:N.cell++,id:N.edges++},a.a.createElement(\"a\",{className:\"hoverable\",onClick:n.handleClick})):a.a.createElement(\"div\",{className:\"cell box\",key:N.cell++,id:\"b\".concat(N.box++)})}))})))}}])&&g(t.prototype,n),r&&g(t,r),c}();u.a.render(a.a.createElement(_,null),document.getElementById(\"app\"))}"
         },
         {
           "id": "t4ym",
@@ -898,7 +898,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "73:21-26"
+              "loc": "56:23-28"
             },
             {
               "moduleId": "k7yg",
@@ -907,7 +907,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "73:27-32"
+              "loc": "75:21-26"
             },
             {
               "moduleId": "k7yg",
@@ -916,7 +916,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "73:63-67"
+              "loc": "75:27-32"
             },
             {
               "moduleId": "k7yg",
@@ -925,7 +925,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "76:6-11"
+              "loc": "75:63-67"
             },
             {
               "moduleId": "k7yg",
@@ -934,7 +934,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "76:12-17"
+              "loc": "78:6-11"
             },
             {
               "moduleId": "k7yg",
@@ -943,7 +943,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "111:19-25"
+              "loc": "78:12-17"
             },
             {
               "moduleId": "k7yg",
@@ -952,7 +952,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "120:6-10"
+              "loc": "113:19-25"
             },
             {
               "moduleId": "k7yg",
@@ -961,7 +961,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "174:9-14"
+              "loc": "122:6-10"
             },
             {
               "moduleId": "k7yg",
@@ -970,7 +970,16 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "lodash",
-              "loc": "178:11-16"
+              "loc": "176:9-14"
+            },
+            {
+              "moduleId": "k7yg",
+              "moduleIdentifier": "/home/xeptore/Projects/ordotbox/node_modules/babel-loader/lib/index.js!/home/xeptore/Projects/ordotbox/src/app.jsx 0931f5881f7c58d45078b952b42f8b14",
+              "module": "./src/app.jsx + 2 modules",
+              "moduleName": "./src/app.jsx + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "lodash",
+              "loc": "180:11-16"
             }
           ],
           "usedExports": [
@@ -1280,7 +1289,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-dom",
-              "loc": "67:6-14"
+              "loc": "69:6-14"
             },
             {
               "moduleId": "k7yg",
@@ -1289,7 +1298,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-dom",
-              "loc": "142:10-18"
+              "loc": "144:10-18"
             },
             {
               "moduleId": "k7yg",
@@ -1298,7 +1307,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react-dom",
-              "loc": "217:0-8"
+              "loc": "219:0-8"
             }
           ],
           "usedExports": [
@@ -1439,7 +1448,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "67:22-27"
+              "loc": "69:22-27"
             },
             {
               "moduleId": "k7yg",
@@ -1457,7 +1466,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "142:26-31"
+              "loc": "144:26-31"
             },
             {
               "moduleId": "k7yg",
@@ -1466,7 +1475,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "168:13-18"
+              "loc": "170:13-18"
             },
             {
               "moduleId": "k7yg",
@@ -1475,7 +1484,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "170:9-14"
+              "loc": "172:9-14"
             },
             {
               "moduleId": "k7yg",
@@ -1484,7 +1493,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "172:10-15"
+              "loc": "174:10-15"
             },
             {
               "moduleId": "k7yg",
@@ -1493,7 +1502,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "175:15-20"
+              "loc": "177:15-20"
             },
             {
               "moduleId": "k7yg",
@@ -1502,7 +1511,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "180:19-24"
+              "loc": "182:19-24"
             },
             {
               "moduleId": "k7yg",
@@ -1511,7 +1520,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "185:19-24"
+              "loc": "187:19-24"
             },
             {
               "moduleId": "k7yg",
@@ -1520,7 +1529,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "189:15-20"
+              "loc": "191:15-20"
             },
             {
               "moduleId": "k7yg",
@@ -1529,7 +1538,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "194:19-24"
+              "loc": "196:19-24"
             },
             {
               "moduleId": "k7yg",
@@ -1538,7 +1547,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "198:15-20"
+              "loc": "200:15-20"
             },
             {
               "moduleId": "k7yg",
@@ -1547,7 +1556,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "203:19-24"
+              "loc": "205:19-24"
             },
             {
               "moduleId": "k7yg",
@@ -1556,7 +1565,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "215:2-7"
+              "loc": "217:2-7"
             },
             {
               "moduleId": "k7yg",
@@ -1565,7 +1574,7 @@
               "moduleName": "./src/app.jsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "217:16-21"
+              "loc": "219:16-21"
             },
             {
               "moduleId": "yl30",
@@ -2198,7 +2207,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "73:21-26"
+          "loc": "56:23-28"
         },
         {
           "moduleId": "k7yg",
@@ -2207,7 +2216,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "73:27-32"
+          "loc": "75:21-26"
         },
         {
           "moduleId": "k7yg",
@@ -2216,7 +2225,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "73:63-67"
+          "loc": "75:27-32"
         },
         {
           "moduleId": "k7yg",
@@ -2225,7 +2234,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "76:6-11"
+          "loc": "75:63-67"
         },
         {
           "moduleId": "k7yg",
@@ -2234,7 +2243,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "76:12-17"
+          "loc": "78:6-11"
         },
         {
           "moduleId": "k7yg",
@@ -2243,7 +2252,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "111:19-25"
+          "loc": "78:12-17"
         },
         {
           "moduleId": "k7yg",
@@ -2252,7 +2261,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "120:6-10"
+          "loc": "113:19-25"
         },
         {
           "moduleId": "k7yg",
@@ -2261,7 +2270,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "174:9-14"
+          "loc": "122:6-10"
         },
         {
           "moduleId": "k7yg",
@@ -2270,7 +2279,16 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "lodash",
-          "loc": "178:11-16"
+          "loc": "176:9-14"
+        },
+        {
+          "moduleId": "k7yg",
+          "moduleIdentifier": "/home/xeptore/Projects/ordotbox/node_modules/babel-loader/lib/index.js!/home/xeptore/Projects/ordotbox/src/app.jsx 0931f5881f7c58d45078b952b42f8b14",
+          "module": "./src/app.jsx + 2 modules",
+          "moduleName": "./src/app.jsx + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "lodash",
+          "loc": "180:11-16"
         }
       ],
       "usedExports": [
@@ -2575,7 +2593,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-dom",
-          "loc": "67:6-14"
+          "loc": "69:6-14"
         },
         {
           "moduleId": "k7yg",
@@ -2584,7 +2602,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-dom",
-          "loc": "142:10-18"
+          "loc": "144:10-18"
         },
         {
           "moduleId": "k7yg",
@@ -2593,7 +2611,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react-dom",
-          "loc": "217:0-8"
+          "loc": "219:0-8"
         }
       ],
       "usedExports": [
@@ -2612,7 +2630,7 @@
       "name": "./src/app.jsx + 2 modules",
       "index": 0,
       "index2": 19,
-      "size": 12439,
+      "size": 12517,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -2657,7 +2675,7 @@
           "name": "./src/app.jsx",
           "index": 0,
           "index2": 19,
-          "size": 7975,
+          "size": 8053,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2691,7 +2709,7 @@
             "ModuleConcatenation bailout: Module is an entry point"
           ],
           "depth": 0,
-          "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nimport './styles/style.scss';\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { times, range, chunk, head, pull, sample } from 'lodash';\nimport Box from './box';\nimport ScoreBoard from './scoreboard';\nvar n = 3;\nvar MaxEdges = n * (n + 1) * 2;\nvar scores = {\n  cpu: 0,\n  player: 0\n};\nvar uids = {\n  row: 0,\n  box: 0,\n  cell: -1,\n  edges: 0\n};\nvar RemainingEdges = range(MaxEdges);\n\nvar App =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _this;\n\n    _classCallCheck(this, App);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(App).call(this));\n    var size = prompt('Enter size of the game (3 - 9):');\n    var parsedIntSize = parseInt(size);\n\n    if (parsedIntSize == size && parsedIntSize < 10 && parsedIntSize > 2) {\n      n = parsedIntSize;\n    } else {\n      alert('Invalid size. set to 3');\n    }\n\n    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_assertThisInitialized(_this)));\n    _this.Boxes = [];\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      ReactDOM.render(React.createElement(ScoreBoard, {\n        player: scores.player,\n        cpu: scores.cpu,\n        total: n * n\n      }), document.getElementById('scoreboard'));\n      uids.box = 0;\n      var headsTop = chunk(range(MaxEdges - n), 2 * n + 1).map(head);\n      var boxes = [];\n      var idx = 0;\n      chunk(range(9), 3).forEach(function (row, i) {\n        row.forEach(function (box, j) {\n          var top = headsTop[i] + j;\n          var left = top + n;\n          var right = left + 1;\n          var bottom = right + n;\n          boxes.push(new Box(box, document.getElementById(\"b\".concat(idx++)), [top, right, bottom, left]));\n        });\n      });\n      this.Boxes = boxes;\n    }\n  }, {\n    key: \"handleClick\",\n    value: function handleClick(e) {\n      if (e.target.getAttribute('clicked')) {\n        return;\n      }\n\n      var edge = document.getElementById(e.target.parentNode.getAttribute('id'));\n      var prevPlayerScore = scores.player;\n      this.playerSelectedEdge(1, edge);\n\n      if (scores.player === prevPlayerScore) {\n        this.playcpu();\n      }\n    }\n  }, {\n    key: \"playcpu\",\n    value: function playcpu() {\n      var edge = this.selectRandomEdge();\n      this.playerSelectedEdge(0, edge);\n    }\n  }, {\n    key: \"selectRandomEdge\",\n    value: function selectRandomEdge() {\n      var edgeID = sample(RemainingEdges);\n      return document.getElementById(edgeID);\n    }\n  }, {\n    key: \"playerSelectedEdge\",\n    value: function playerSelectedEdge(player, edge) {\n      edge.classList.add('clicked');\n      edge.children[0].classList.add('clicked');\n      edge.children[0].setAttribute('clicked', true);\n      pull(RemainingEdges, parseInt(edge.id));\n      var selectedEdgeBoxes = this.Boxes.filter(function (box) {\n        var index = box.Edges.indexOf(parseInt(edge.id));\n\n        if (index !== -1) {\n          box.SelectedEdges.push(index);\n          return true;\n        }\n\n        return false;\n      });\n      var prevCpuScore = player === 0 ? scores.cpu : -1;\n      selectedEdgeBoxes.forEach(function (box) {\n        if (--box.RemainingEdges === 0) {\n          if (player === 1) {\n            box.Element.classList.add('box-user-selected');\n            scores.player++;\n          } else {\n            box.Element.classList.add('box-cpu-selected');\n            scores.cpu++;\n          }\n\n          ReactDOM.render(React.createElement(ScoreBoard, {\n            player: scores.player,\n            cpu: scores.cpu,\n            total: n * n\n          }), document.getElementById('scoreboard'));\n        }\n      });\n      var currentCpuScore = player === 0 ? scores.cpu : -1;\n\n      if (currentCpuScore > prevCpuScore && player === 0 && RemainingEdges.length !== 0) {\n        this.playcpu();\n        return;\n      }\n\n      if (scores.player + scores.cpu === n * n) {\n        console.log('finished!');\n        console.log('scores:');\n        console.log('player:', scores.player);\n        console.log('cpu:', scores.cpu);\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this2 = this;\n\n      return React.createElement(\"div\", {\n        className: \"wrapper\"\n      }, React.createElement(\"div\", {\n        id: \"scoreboard\"\n      }), React.createElement(\"div\", {\n        className: \"game-wrapper\"\n      }, times(2 * n + 1, function (i) {\n        return React.createElement(\"div\", {\n          className: \"row\",\n          key: uids.row++\n        }, times(2 * n + 1, function (j) {\n          if (i % 2 === 0 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell vertex\",\n              key: uids.cell++\n            });\n          } else if (i % 2 === 1 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell edge vedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else if (i % 2 === 0 && j % 2 === 1) {\n            return React.createElement(\"div\", {\n              className: \"cell edge hedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else {\n            return React.createElement(\"div\", {\n              className: \"cell box\",\n              key: uids.cell++,\n              id: \"b\".concat(uids.box++)\n            });\n          }\n        }));\n      })));\n    }\n  }]);\n\n  return App;\n}(React.Component);\n\nReactDOM.render(React.createElement(App, null), document.getElementById('app'));"
+          "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nimport './styles/style.scss';\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { times, range, chunk, head, pull, sample } from 'lodash';\nimport Box from './box';\nimport ScoreBoard from './scoreboard';\nvar n = 3;\nvar MaxEdges = n * (n + 1) * 2;\nvar scores = {\n  cpu: 0,\n  player: 0\n};\nvar uids = {\n  row: 0,\n  box: 0,\n  cell: -1,\n  edges: 0\n};\nvar RemainingEdges = range(MaxEdges);\n\nvar App =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _this;\n\n    _classCallCheck(this, App);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(App).call(this));\n    var size = prompt('Enter size of the game (3 - 9):');\n    var parsedIntSize = parseInt(size);\n\n    if (parsedIntSize == size && parsedIntSize < 10 && parsedIntSize > 2) {\n      n = parsedIntSize;\n      MaxEdges = n * (n + 1) * 2;\n      RemainingEdges = range(MaxEdges);\n    } else {\n      alert('Invalid size. set to 3');\n    }\n\n    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_assertThisInitialized(_this)));\n    _this.Boxes = [];\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      ReactDOM.render(React.createElement(ScoreBoard, {\n        player: scores.player,\n        cpu: scores.cpu,\n        total: n * n\n      }), document.getElementById('scoreboard'));\n      uids.box = 0;\n      var headsTop = chunk(range(MaxEdges - n), 2 * n + 1).map(head);\n      var boxes = [];\n      var idx = 0;\n      chunk(range(n * n), n).forEach(function (row, i) {\n        row.forEach(function (box, j) {\n          var top = headsTop[i] + j;\n          var left = top + n;\n          var right = left + 1;\n          var bottom = right + n;\n          boxes.push(new Box(box, document.getElementById(\"b\".concat(idx++)), [top, right, bottom, left]));\n        });\n      });\n      this.Boxes = boxes;\n    }\n  }, {\n    key: \"handleClick\",\n    value: function handleClick(e) {\n      if (e.target.getAttribute('clicked')) {\n        return;\n      }\n\n      var edge = document.getElementById(e.target.parentNode.getAttribute('id'));\n      var prevPlayerScore = scores.player;\n      this.playerSelectedEdge(1, edge);\n\n      if (scores.player === prevPlayerScore) {\n        this.playcpu();\n      }\n    }\n  }, {\n    key: \"playcpu\",\n    value: function playcpu() {\n      var edge = this.selectRandomEdge();\n      this.playerSelectedEdge(0, edge);\n    }\n  }, {\n    key: \"selectRandomEdge\",\n    value: function selectRandomEdge() {\n      var edgeID = sample(RemainingEdges);\n      return document.getElementById(edgeID);\n    }\n  }, {\n    key: \"playerSelectedEdge\",\n    value: function playerSelectedEdge(player, edge) {\n      edge.classList.add('clicked');\n      edge.children[0].classList.add('clicked');\n      edge.children[0].setAttribute('clicked', true);\n      pull(RemainingEdges, parseInt(edge.id));\n      var selectedEdgeBoxes = this.Boxes.filter(function (box) {\n        var index = box.Edges.indexOf(parseInt(edge.id));\n\n        if (index !== -1) {\n          box.SelectedEdges.push(index);\n          return true;\n        }\n\n        return false;\n      });\n      var prevCpuScore = player === 0 ? scores.cpu : -1;\n      selectedEdgeBoxes.forEach(function (box) {\n        if (--box.RemainingEdges === 0) {\n          if (player === 1) {\n            box.Element.classList.add('box-user-selected');\n            scores.player++;\n          } else {\n            box.Element.classList.add('box-cpu-selected');\n            scores.cpu++;\n          }\n\n          ReactDOM.render(React.createElement(ScoreBoard, {\n            player: scores.player,\n            cpu: scores.cpu,\n            total: n * n\n          }), document.getElementById('scoreboard'));\n        }\n      });\n      var currentCpuScore = player === 0 ? scores.cpu : -1;\n\n      if (currentCpuScore > prevCpuScore && player === 0 && RemainingEdges.length !== 0) {\n        this.playcpu();\n        return;\n      }\n\n      if (scores.player + scores.cpu === n * n) {\n        console.log('finished!');\n        console.log('scores:');\n        console.log('player:', scores.player);\n        console.log('cpu:', scores.cpu);\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this2 = this;\n\n      return React.createElement(\"div\", {\n        className: \"wrapper\"\n      }, React.createElement(\"div\", {\n        id: \"scoreboard\"\n      }), React.createElement(\"div\", {\n        className: \"game-wrapper\"\n      }, times(2 * n + 1, function (i) {\n        return React.createElement(\"div\", {\n          className: \"row\",\n          key: uids.row++\n        }, times(2 * n + 1, function (j) {\n          if (i % 2 === 0 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell vertex\",\n              key: uids.cell++\n            });\n          } else if (i % 2 === 1 && j % 2 === 0) {\n            return React.createElement(\"div\", {\n              className: \"cell edge vedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else if (i % 2 === 0 && j % 2 === 1) {\n            return React.createElement(\"div\", {\n              className: \"cell edge hedge\",\n              key: uids.cell++,\n              id: uids.edges++\n            }, React.createElement(\"a\", {\n              className: \"hoverable\",\n              onClick: _this2.handleClick\n            }));\n          } else {\n            return React.createElement(\"div\", {\n              className: \"cell box\",\n              key: uids.cell++,\n              id: \"b\".concat(uids.box++)\n            });\n          }\n        }));\n      })));\n    }\n  }]);\n\n  return App;\n}(React.Component);\n\nReactDOM.render(React.createElement(App, null), document.getElementById('app'));"
         },
         {
           "id": null,
@@ -2738,7 +2756,7 @@
               "moduleName": "./src/app.jsx",
               "type": "harmony import specifier",
               "userRequest": "./box",
-              "loc": "82:25-28"
+              "loc": "84:25-28"
             }
           ],
           "usedExports": [
@@ -2797,7 +2815,7 @@
               "moduleName": "./src/app.jsx",
               "type": "harmony import specifier",
               "userRequest": "./scoreboard",
-              "loc": "67:42-52"
+              "loc": "69:42-52"
             },
             {
               "moduleId": null,
@@ -2806,7 +2824,7 @@
               "moduleName": "./src/app.jsx",
               "type": "harmony import specifier",
               "userRequest": "./scoreboard",
-              "loc": "142:46-56"
+              "loc": "144:46-56"
             }
           ],
           "usedExports": [
@@ -2950,7 +2968,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "67:22-27"
+          "loc": "69:22-27"
         },
         {
           "moduleId": "k7yg",
@@ -2968,7 +2986,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "142:26-31"
+          "loc": "144:26-31"
         },
         {
           "moduleId": "k7yg",
@@ -2977,7 +2995,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "168:13-18"
+          "loc": "170:13-18"
         },
         {
           "moduleId": "k7yg",
@@ -2986,7 +3004,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "170:9-14"
+          "loc": "172:9-14"
         },
         {
           "moduleId": "k7yg",
@@ -2995,7 +3013,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "172:10-15"
+          "loc": "174:10-15"
         },
         {
           "moduleId": "k7yg",
@@ -3004,7 +3022,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "175:15-20"
+          "loc": "177:15-20"
         },
         {
           "moduleId": "k7yg",
@@ -3013,7 +3031,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "180:19-24"
+          "loc": "182:19-24"
         },
         {
           "moduleId": "k7yg",
@@ -3022,7 +3040,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "185:19-24"
+          "loc": "187:19-24"
         },
         {
           "moduleId": "k7yg",
@@ -3031,7 +3049,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "189:15-20"
+          "loc": "191:15-20"
         },
         {
           "moduleId": "k7yg",
@@ -3040,7 +3058,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "194:19-24"
+          "loc": "196:19-24"
         },
         {
           "moduleId": "k7yg",
@@ -3049,7 +3067,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "198:15-20"
+          "loc": "200:15-20"
         },
         {
           "moduleId": "k7yg",
@@ -3058,7 +3076,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "203:19-24"
+          "loc": "205:19-24"
         },
         {
           "moduleId": "k7yg",
@@ -3067,7 +3085,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "215:2-7"
+          "loc": "217:2-7"
         },
         {
           "moduleId": "k7yg",
@@ -3076,7 +3094,7 @@
           "moduleName": "./src/app.jsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "217:16-21"
+          "loc": "219:16-21"
         },
         {
           "moduleId": "yl30",
