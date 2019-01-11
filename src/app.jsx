@@ -9,7 +9,7 @@ import Box from './box';
 import ScoreBoard from './scoreboard';
 
 let n = 3;
-const MaxEdges = (n * (n + 1)) * 2;
+let MaxEdges = (n * (n + 1)) * 2;
 const scores = {
     cpu: 0,
     player: 0
@@ -22,7 +22,7 @@ const uids = {
     edges: 0
 };
 
-const RemainingEdges = range(MaxEdges);
+let RemainingEdges = range(MaxEdges);
 
 class App extends React.Component {
     constructor() {
@@ -31,6 +31,8 @@ class App extends React.Component {
         const parsedIntSize = parseInt(size);
         if (parsedIntSize == size && parsedIntSize < 10 && parsedIntSize > 2) {
             n = parsedIntSize;
+            MaxEdges = (n * (n + 1)) * 2;
+            RemainingEdges = range(MaxEdges);
         } else {
             alert('Invalid size. set to 3');
         }
@@ -43,7 +45,7 @@ class App extends React.Component {
         const headsTop = chunk(range(MaxEdges - n), 2 * n + 1).map(head);
         const boxes = [];
         let idx = 0;
-        chunk(range(9), 3).forEach((row, i) => {
+        chunk(range(n * n), n).forEach((row, i) => {
             row.forEach((box, j) => {
                 const top = headsTop[i] + j;
                 const left = top + n;
